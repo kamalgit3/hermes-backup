@@ -1,0 +1,23 @@
+{
+  "note": "codevz_theme_options social fix backup — pooyamachine.com",
+  "date": "2026-08-05",
+  "option": "codevz_theme_options",
+  "social_key": [
+    {
+      "title": "آپارات",
+      "icon": "fa czico-aparat",
+      "link": "https://www.aparat.com/pooyamachine"
+    },
+    {
+      "title": "توئیتر",
+      "icon": "fab fa-square-x-twitter",
+      "link": "https://www.facebook.com/pooyamachine"
+    },
+    {
+      "title": "توئیتر",
+      "icon": "fab fa-instagram",
+      "link": "https://youtube.com/@pooyamachine?si=_ZLeDQakTR0u9-qY"
+    }
+  ],
+  "migration_backup_exists": true
+}
