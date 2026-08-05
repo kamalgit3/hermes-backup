@@ -1,0 +1,16 @@
+{
+  "note": "Organization schema: knowledgegraph_type person→company, logo Frame-175d.png (id 18813)",
+  "date": "2026-08-05",
+  "option": "rank-math-options-titles",
+  "changes": {
+    "knowledgegraph_type": "person → company",
+    "knowledgegraph_logo": "(none) → https://pooyamachine.com/wp-content/uploads/2025/07/Frame-175d.png",
+    "knowledgegraph_logo_id": "(none) → 18813"
+  },
+  "verified": {
+    "homepage": "@type Organization, @id #organization, logo 209x48 ✅",
+    "product_page": "@type Organization, @id #organization, logo ✅ (after cache purge)",
+    "shop_page": "@type Organization, @id #organization, logo ✅"
+  },
+  "rollback": "20260805_rm_titles_before.json (full 246-key backup)"
+}

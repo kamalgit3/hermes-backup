@@ -1,0 +1,367 @@
+{
+  "noindex_empty_taxonomies": "off",
+  "title_separator": "-",
+  "capitalize_titles": "off",
+  "twitter_card_type": "summary_large_image",
+  "knowledgegraph_type": "person",
+  "knowledgegraph_name": "پویا ماشین البرز",
+  "website_name": "پویا ماشین البرز",
+  "local_business_type": "",
+  "local_address_format": "{address} {locality}, {region} {postalcode}",
+  "opening_hours": [
+    {
+      "day": "Monday",
+      "time": ""
+    }
+  ],
+  "opening_hours_format": "",
+  "homepage_title": "%sitename% %page% %sep% %sitedesc%",
+  "homepage_description": "",
+  "homepage_custom_robots": false,
+  "disable_author_archives": "off",
+  "url_author_base": "author",
+  "author_custom_robots": "on",
+  "author_robots": [
+    "index"
+  ],
+  "author_archive_title": "%name% %sep% %sitename% %page%",
+  "author_add_meta_box": "on",
+  "disable_date_archives": "on",
+  "date_archive_title": "%date% %page% %sep% %sitename%",
+  "search_title": "%search_query% %page% %sep% %sitename%",
+  "404_title": "Page Not Found %sep% %sitename%",
+  "date_archive_robots": [
+    "noindex"
+  ],
+  "noindex_search": "on",
+  "noindex_archive_subpages": "off",
+  "noindex_password_protected": "off",
+  "pt_download_default_rich_snippet": "product",
+  "author_slack_enhanced_sharing": "on",
+  "pt_post_title": "%title% %page% %sep% %sitename%",
+  "pt_post_description": "%excerpt%",
+  "pt_post_robots": [
+    "index"
+  ],
+  "pt_post_custom_robots": "on",
+  "pt_post_default_rich_snippet": "article",
+  "pt_post_default_article_type": "BlogPosting",
+  "pt_post_default_snippet_name": "%seo_title%",
+  "pt_post_default_snippet_desc": "%seo_description%",
+  "pt_post_slack_enhanced_sharing": "on",
+  "pt_post_ls_use_fk": "titles",
+  "pt_post_add_meta_box": "on",
+  "pt_post_bulk_editing": "editing",
+  "pt_post_link_suggestions": "on",
+  "pt_post_primary_taxonomy": "category",
+  "pt_page_title": "%title% %page% %sep% %sitename%",
+  "pt_page_description": "%excerpt%",
+  "pt_page_robots": [
+    "index"
+  ],
+  "pt_page_custom_robots": "on",
+  "pt_page_default_rich_snippet": "",
+  "pt_page_default_article_type": "Article",
+  "pt_page_default_snippet_name": "%seo_title%",
+  "pt_page_default_snippet_desc": "%seo_description%",
+  "pt_page_slack_enhanced_sharing": "on",
+  "pt_page_ls_use_fk": "titles",
+  "pt_page_add_meta_box": "on",
+  "pt_page_bulk_editing": "editing",
+  "pt_page_link_suggestions": "on",
+  "pt_attachment_title": "%title% %sep% %sitename%",
+  "pt_attachment_description": "%excerpt%",
+  "pt_attachment_robots": [
+    "noindex"
+  ],
+  "pt_attachment_custom_robots": true,
+  "pt_attachment_default_rich_snippet": false,
+  "pt_attachment_default_article_type": "Article",
+  "pt_attachment_default_snippet_name": "%seo_title%",
+  "pt_attachment_default_snippet_desc": "%seo_description%",
+  "pt_attachment_slack_enhanced_sharing": false,
+  "pt_attachment_add_meta_box": false,
+  "pt_portfolio_title": "%title% %page% %sep% %sitename%",
+  "pt_portfolio_description": "%excerpt%",
+  "pt_portfolio_robots": [
+    "index"
+  ],
+  "pt_portfolio_custom_robots": "on",
+  "pt_portfolio_default_rich_snippet": "",
+  "pt_portfolio_default_article_type": "Article",
+  "pt_portfolio_default_snippet_name": "%seo_title%",
+  "pt_portfolio_default_snippet_desc": "%seo_description%",
+  "pt_portfolio_archive_title": "%title% %page% %sep% %sitename%",
+  "pt_portfolio_slack_enhanced_sharing": "off",
+  "pt_portfolio_ls_use_fk": "titles",
+  "pt_portfolio_add_meta_box": "on",
+  "pt_portfolio_bulk_editing": "editing",
+  "pt_portfolio_link_suggestions": "on",
+  "pt_e-floating-buttons_title": "%title% %sep% %sitename%",
+  "pt_e-floating-buttons_description": "%excerpt%",
+  "pt_e-floating-buttons_robots": [],
+  "pt_e-floating-buttons_custom_robots": "off",
+  "pt_e-floating-buttons_default_rich_snippet": "off",
+  "pt_e-floating-buttons_default_article_type": "Article",
+  "pt_e-floating-buttons_default_snippet_name": "%seo_title%",
+  "pt_e-floating-buttons_default_snippet_desc": "%seo_description%",
+  "pt_e-floating-buttons_slack_enhanced_sharing": "off",
+  "pt_e-floating-buttons_ls_use_fk": "titles",
+  "pt_e-floating-buttons_add_meta_box": "on",
+  "pt_e-floating-buttons_bulk_editing": "editing",
+  "pt_e-floating-buttons_link_suggestions": "on",
+  "pt_codevz_size_guide_title": "%title% %page% %sep% %sitename%",
+  "pt_codevz_size_guide_description": "%excerpt%",
+  "pt_codevz_size_guide_robots": [
+    "index"
+  ],
+  "pt_codevz_size_guide_custom_robots": "on",
+  "pt_codevz_size_guide_default_rich_snippet": "",
+  "pt_codevz_size_guide_default_article_type": "Article",
+  "pt_codevz_size_guide_default_snippet_name": "%seo_title%",
+  "pt_codevz_size_guide_default_snippet_desc": "%seo_description%",
+  "pt_codevz_size_guide_slack_enhanced_sharing": "off",
+  "pt_codevz_size_guide_ls_use_fk": "titles",
+  "pt_codevz_size_guide_add_meta_box": "on",
+  "pt_codevz_size_guide_bulk_editing": "editing",
+  "pt_codevz_size_guide_link_suggestions": "on",
+  "pt_codevz_faq_title": "%title% %page% %sep% %sitename%",
+  "pt_codevz_faq_description": "%excerpt%",
+  "pt_codevz_faq_robots": [
+    "index"
+  ],
+  "pt_codevz_faq_custom_robots": "on",
+  "pt_codevz_faq_default_rich_snippet": "product",
+  "pt_codevz_faq_default_article_type": "Article",
+  "pt_codevz_faq_default_snippet_name": "%seo_title%",
+  "pt_codevz_faq_default_snippet_desc": "%seo_description%",
+  "pt_codevz_faq_slack_enhanced_sharing": "off",
+  "pt_codevz_faq_ls_use_fk": "titles",
+  "pt_codevz_faq_add_meta_box": "on",
+  "pt_codevz_faq_bulk_editing": "editing",
+  "pt_codevz_faq_link_suggestions": "on",
+  "pt_product_title": "%title% %page% %sep% %sitename%",
+  "pt_product_description": "%excerpt%",
+  "pt_product_robots": [
+    "index"
+  ],
+  "pt_product_custom_robots": "on",
+  "pt_product_default_rich_snippet": "product",
+  "pt_product_default_article_type": "Article",
+  "pt_product_default_snippet_name": "%seo_title%",
+  "pt_product_default_snippet_desc": "%seo_description%",
+  "pt_product_archive_title": "%title% %page% %sep% %sitename%",
+  "pt_product_slack_enhanced_sharing": "on",
+  "pt_product_ls_use_fk": "titles",
+  "pt_product_add_meta_box": "on",
+  "pt_product_bulk_editing": "editing",
+  "pt_product_link_suggestions": "on",
+  "pt_product_primary_taxonomy": "product_cat",
+  "pt_web-story_title": "%title% %sep% %sitename%",
+  "pt_web-story_description": "%excerpt%",
+  "pt_web-story_robots": [],
+  "pt_web-story_custom_robots": false,
+  "pt_web-story_default_rich_snippet": "article",
+  "pt_web-story_default_article_type": "Article",
+  "pt_web-story_default_snippet_name": "%seo_title%",
+  "pt_web-story_default_snippet_desc": "%seo_description%",
+  "pt_web-story_slack_enhanced_sharing": false,
+  "pt_web-story_add_meta_box": false,
+  "tax_category_title": "%term% Archives %page% %sep% %sitename%",
+  "tax_category_robots": [
+    "index"
+  ],
+  "tax_category_add_meta_box": "on",
+  "tax_category_custom_robots": "on",
+  "tax_category_description": "%term_description%",
+  "tax_category_slack_enhanced_sharing": "on",
+  "tax_post_tag_title": "%term% Archives %page% %sep% %sitename%",
+  "tax_post_tag_robots": [
+    "index"
+  ],
+  "tax_post_tag_add_meta_box": "off",
+  "tax_post_tag_custom_robots": "on",
+  "tax_post_tag_description": "%term_description%",
+  "tax_post_tag_slack_enhanced_sharing": "on",
+  "tax_post_format_title": "%term% %sep% %sitename%",
+  "tax_post_format_robots": [
+    "noindex"
+  ],
+  "tax_post_format_add_meta_box": false,
+  "tax_post_format_custom_robots": true,
+  "tax_post_format_description": "%term_description%",
+  "tax_post_format_slack_enhanced_sharing": true,
+  "tax_portfolio_cat_title": "%term% Archives %page% %sep% %sitename%",
+  "tax_portfolio_cat_robots": [
+    "index"
+  ],
+  "tax_portfolio_cat_add_meta_box": "off",
+  "tax_portfolio_cat_custom_robots": "on",
+  "tax_portfolio_cat_description": "%term_description%",
+  "tax_portfolio_cat_slack_enhanced_sharing": "on",
+  "tax_portfolio_tags_title": "%term% Archives %page% %sep% %sitename%",
+  "tax_portfolio_tags_robots": [
+    "index"
+  ],
+  "tax_portfolio_tags_add_meta_box": "off",
+  "tax_portfolio_tags_custom_robots": "on",
+  "tax_portfolio_tags_description": "%term_description%",
+  "tax_portfolio_tags_slack_enhanced_sharing": "on",
+  "tax_product_brand_title": "%term% Archives %page% %sep% %sitename%",
+  "tax_product_brand_robots": [
+    "index"
+  ],
+  "tax_product_brand_add_meta_box": "off",
+  "tax_product_brand_custom_robots": "on",
+  "tax_product_brand_description": "%term_description%",
+  "tax_product_brand_slack_enhanced_sharing": "on",
+  "tax_product_cat_title": "%term% Archives %page% %sep% %sitename%",
+  "tax_product_cat_robots": [
+    "index"
+  ],
+  "tax_product_cat_add_meta_box": "off",
+  "tax_product_cat_custom_robots": "on",
+  "tax_product_cat_description": "%term_description%",
+  "tax_product_cat_slack_enhanced_sharing": "on",
+  "tax_product_tag_title": "%term% Archives %page% %sep% %sitename%",
+  "tax_product_tag_robots": [
+    "index"
+  ],
+  "tax_product_tag_add_meta_box": "off",
+  "tax_product_tag_custom_robots": "on",
+  "tax_product_tag_description": "%term_description%",
+  "tax_product_tag_slack_enhanced_sharing": "on",
+  "remove_product_cat_snippet_data": "on",
+  "remove_product_tag_snippet_data": "on",
+  "robots_global": [
+    "index"
+  ],
+  "advanced_robots_global": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "url": "https://pooyamachine.com",
+  "author_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "date_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "noindex_paginated_pages": "off",
+  "pt_post_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "pt_post_analyze_fields": "",
+  "pt_page_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "pt_page_analyze_fields": "",
+  "pt_portfolio_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "pt_portfolio_primary_taxonomy": "",
+  "pt_portfolio_analyze_fields": "",
+  "pt_e-floating-buttons_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "pt_e-floating-buttons_analyze_fields": "",
+  "pt_codevz_size_guide_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "pt_codevz_size_guide_analyze_fields": "",
+  "pt_codevz_faq_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "pt_codevz_faq_analyze_fields": "",
+  "pt_product_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "pt_product_analyze_fields": "",
+  "tax_category_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "remove_category_snippet_data": "on",
+  "tax_post_tag_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "remove_post_tag_snippet_data": "off",
+  "tax_portfolio_cat_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "remove_portfolio_cat_snippet_data": "off",
+  "tax_portfolio_tags_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "remove_portfolio_tags_snippet_data": "off",
+  "tax_product_brand_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "remove_product_brand_snippet_data": "off",
+  "tax_product_cat_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "tax_product_tag_advanced_robots": {
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    "max-image-preview": "large"
+  },
+  "website_alternate_name": "pooyamachine",
+  "phone_numbers": [
+    {
+      "type": "customer support",
+      "number": ""
+    }
+  ],
+  "additional_info": [
+    {
+      "type": "legalName",
+      "value": ""
+    }
+  ],
+  "maps_api_key": "vedtr4w3bgt4rGHfcT#@f4%6",
+  "social_url_facebook": "https://www.facebook.com/pooyamachine",
+  "facebook_app_id": "marzieh.karimiyan",
+  "facebook_secret": "vedtr4w3bgt4rGHfcT#@f4%6",
+  "twitter_author_names": "pooyamachine",
+  "tax_category_bulk_editing": "0",
+  "tax_post_tag_bulk_editing": "0",
+  "tax_portfolio_cat_bulk_editing": "0",
+  "tax_portfolio_tags_bulk_editing": "0",
+  "tax_product_brand_bulk_editing": "0",
+  "tax_product_cat_bulk_editing": "0",
+  "tax_product_tag_bulk_editing": "0",
+  "facebook_author_urls": "https://www.facebook.com/pooyamachine",
+  "facebook_admin_id": "https://www.facebook.com/pooyamachine",
+  "social_additional_profiles": "https://instagram.com/pooyamachine\nhttps://linkedin.com/company/pooyamachine\nhttps://youtube.com/@pooyamachine?si=_ZLeDQakTR0u9-qY"
+}
