@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-08-05T16:42:14.736176",
+  "platforms": {
+    "telegram": [
+      {
+        "id": "7815550003",
+        "name": "Pooyamachine",
+        "type": "dm",
+        "thread_id": null
+      },
+      {
+        "id": "46080668",
+        "name": "کمال",
+        "type": "dm",
+        "thread_id": null
+      }
+    ]
+  }
+}

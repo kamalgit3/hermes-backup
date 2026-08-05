@@ -17,11 +17,14 @@ Backup of Hermes agent state from container `4dc68ea2b1fb` (created 2026-08-05).
 | `hooks/`, `pairing/`, `platforms/` | Extensions config |
 | `entrypoint.sh` | Container entrypoint script |
 
-## NOT included (for security / regenerable)
+## Sensitive files (included — full backup)
 
-- `.env` — real API keys (excluded intentionally; see `.env.example` pattern: `HERMES_CUSTOM_*_API_KEY`)
+- `.env` — real API keys (this is a PRIVATE repo; keys are included for full restore)
 - `auth.json` — OAuth tokens / credential pools
-- `bin/` (uv, tirith binaries), `cache/`, `logs/`, `image_cache/`, `audio_cache/`, `models_dev_cache.json` — re-downloadable/regenerable
+
+## NOT included (regenerable only)
+
+- `bin/` (uv, tirith binaries), `cache/`, `logs/` — re-downloadable/regenerable
 
 ## Restore
 
