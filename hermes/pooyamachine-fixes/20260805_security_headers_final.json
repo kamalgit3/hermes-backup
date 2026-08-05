@@ -1,0 +1,24 @@
+{
+  "note": "Security headers added via .htaccess (pooyamachine.com) — no SFTP needed, used PHP snippet via REST",
+  "date": "2026-08-05",
+  "headers_added": [
+    "X-Content-Type-Options: nosniff",
+    "X-Frame-Options: SAMEORIGIN",
+    "Referrer-Policy: strict-origin-when-cross-origin",
+    "Permissions-Policy: geolocation=(), microphone=(), camera=()",
+    "Strict-Transport-Security: max-age=31536000"
+  ],
+  "file_modified": "/home3/jtcvcobh/public_html/.htaccess (prepended # BEGIN SECURITY HEADERS block)",
+  "backups": {
+    "file": "/home3/jtcvcobh/public_html/.htaccess.bak-20260805 (next to original)",
+    "wp_option": "kp_htaccess_backup_full (in wp_options)"
+  },
+  "verified": {
+    "/": "200 + all 5 headers",
+    "/contact-us/": "200 + all 5 headers",
+    "/محصولات/": "200 + all 5 headers",
+    "/blog/": "200 + all 5 headers",
+    "wp-json": "200 (REST alive)"
+  },
+  "rollback": "restore .htaccess.bak-20260805 via cPanel File Manager, or get_option(\"kp_htaccess_backup_full\")"
+}
