@@ -1,0 +1,18 @@
+{
+  "note": "Fixed &nbsp; in product meta descriptions by removing empty <p>&nbsp;</p> paragraphs from short_description",
+  "date": "2026-08-05",
+  "fixed": [
+    {
+      "id": 18879,
+      "name": "میکسر پودر استیل 50 لیتری",
+      "issue": "leading <p>&nbsp;</p> caused &nbsp; in meta description"
+    },
+    {
+      "id": 18884,
+      "name": "میکسر پودر استیل 100 لیتری",
+      "issue": "mid <p>&nbsp;</p> paragraph removed"
+    }
+  ],
+  "verified": "meta description + og:description clean on both product pages (curl)",
+  "rollback": "20260805_shortdesc_before.json (original short_descriptions)"
+}
