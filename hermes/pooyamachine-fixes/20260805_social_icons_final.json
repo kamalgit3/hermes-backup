@@ -1,0 +1,28 @@
+{
+  "note": "final social icons state — pooyamachine.com (Twitter removed; Aparat/Facebook/Instagram/YouTube)",
+  "date": "2026-08-05",
+  "option": "codevz_theme_options",
+  "social": [
+    {
+      "title": "آپارات",
+      "icon": "fa czico-aparat",
+      "link": "https://www.aparat.com/pooyamachine"
+    },
+    {
+      "title": "فیسبوک",
+      "icon": "fab fa-facebook-f",
+      "link": "https://www.facebook.com/pooyamachine"
+    },
+    {
+      "title": "اینستاگرام",
+      "icon": "fab fa-instagram",
+      "link": "https://www.instagram.com/pooyamachine"
+    },
+    {
+      "title": "یوتیوب",
+      "icon": "fab fa-youtube",
+      "link": "https://youtube.com/@pooyamachine"
+    }
+  ],
+  "rollback": "codevz_theme_options_backup_social_fix (original) / codevz_theme_options_backup_social_v2 (after 1st fix) in wp_options"
+}
