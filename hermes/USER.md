@@ -1,0 +1,5 @@
+Kamal: primary language Farsi (formal 'شما'). Enjoys technical, analytical, step-by-step explanations. Fixed decision pattern: gather info → compare → cost/benefit → optimal solution. Writing style: direct, explicit, results-oriented. Personality: analytical, curious, pragmatic, self-reflective. Forbids unsolicited .env/config edits (give commands to apply; 'مگه نگفتم دست نزن'), NEVER distrust data, redact secrets. Win tahora@Win 192.168.1.105 Tailscale 100.118.124.61 C:/Projects. Telegram IDs 7815550003,46080668 (preserve all, manual .env only).
+§
+THREE NON-NEGOTIABLE RULES (Kamal): (1) Only delegate to user what I absolutely cannot do (no access/tools and cannot get them). (2) NEVER guess or answer carelessly — verify correctness fully before answering. (3) Railway disk extremely limited — /data only; never touch the large / (overlay) mount. Keep space in mind on any command.
+§
+Kamal's disk scope: only the small /data partition is 'ours' to manage. Do NOT touch/clean the large / (overlay) mount — even /tmp items are off-limits, regardless of free space there. Backup repo live copy lives at /hermes-backup-repo on the big mount (not cleaned).

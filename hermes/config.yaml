@@ -1,0 +1,20 @@
+model:
+  default: rail263_combo
+  provider: custom
+  base_url: https://9router-production-65a1.up.railway.app/v1
+  api_key: ${HERMES_CUSTOM_9ROUTER_PRODUCTION_65A1_UP_RAILWAY_APP_API_KEY}
+_config_version: 33
+llm:
+  provider: custom
+  config:
+    base_url: https://9router-production-65a1.up.railway.app/v1
+    model: rail263_combo
+    api_key: YOUR_API_KEY_HERE
+custom_providers:
+  - name: 9router-production-65a1.up.railway.app
+    base_url: https://9router-production-65a1.up.railway.app/v1
+    key_env: HERMES_CUSTOM_9ROUTER_PRODUCTION_65A1_UP_RAILWAY_APP_API_KEY
+    model: rail263_combo
+onboarding:
+  seen:
+    busy_input_prompt: true
