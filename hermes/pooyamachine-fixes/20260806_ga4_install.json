@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-06",
+  "task": "Install GA4 (Google Analytics 4) — first analytics on the site (was 0/100)",
+  "measurement_id": "G-ZLHGRC6YEB",
+  "snippet": {
+    "name": "kp-ga4-tag",
+    "type": "PERMANENT (not temp)",
+    "hook": "wp_head priority 0",
+    "content": "<!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-ZLHGRC6YEB\"></script> + gtag config"
+  },
+  "verification": {
+    "pages_tested": [
+      "هومپیج",
+      "محصولات",
+      "مقالات",
+      "تماس"
+    ],
+    "result": "همه 200 — دقیقاً 1 اسکریپت gtag.js + 1 config در <head>، بدون تکرار",
+    "note": "ID دو بار در HTML دیده می‌شود (یک بار در src، یک بار در config) — این طبیعی و استاندارد است"
+  },
+  "db_state": "10 اسنیپت دائمی (9 قبلی + kp-ga4-tag)، 0 موقت",
+  "pending_user_actions": [
+    "تأیید Enhanced Measurement در استریم GA4 (پیش‌فرض روشن است)",
+    "چک Realtime در پنل GA4 بعد از بازدید از سایت",
+    "بعداً: مارک رویدادهای کلیدی (form_submitted، click_whatsapp، purchase) به عنوان Conversion"
+  ]
+}
