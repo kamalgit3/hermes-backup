@@ -1,0 +1,37 @@
+{
+  "note": "Mixer landing page (19500) title/meta optimized + price table from post 19124 moved into Elementor page",
+  "date": "2026-08-05",
+  "page": "/industrial-powder-mixer/ (page 19500, Elementor, 9 containers)",
+  "title_change": {
+    "old": "میکسر پودر(خرید از تولید کننده +گارانتی- مشاوره فنی اختصاصی)",
+    "new": "خرید میکسر پودر صنعتی استیل و آهن از تولیدکننده | قیمت و مشاوره - پویا ماشین البرز"
+  },
+  "meta_change": {
+    "old": "قیمت میکسر پودر صنعتی بدون واسطه، امکان سفارشی‌سازی و تضمین کیفیت...",
+    "new": "قیمت میکسر پودر صنعتی (استیل ۳۰۴ و آهن) مستقیم از تولیدکننده؛ ظرفیت ۵۰ تا ۵۰۰۰ لیتر، سفارشی‌سازی و گارانتی + مشاوره فنی رایگان."
+  },
+  "content_added": [
+    "H2: لیست قیمت دستگاه میکسر پودر استیل و آهن",
+    "H3: چرا میکسر پودر استیل و آهن؟",
+    "H3: عوامل کلیدی موثر بر قیمت میکسر پودر افقی",
+    "H3: دستگاه میکسر پودر چند است؟",
+    "Price table 50-2000L (استیل/آهن)",
+    "Old external link pooyamachine.ir removed (replaced with internal note)"
+  ],
+  "redirects_discovered": {
+    "note": "5 old mixer URLs already 301 → /industrial-powder-mixer/ (Rank Math redirections, intentional)",
+    "old_urls": [
+      "میکسر-پودر-یا-ریبون-بلندر-چیست",
+      "چگونه-ظرفیت-مخزن-دستگاه-میکسر-پودر-را-ا",
+      "قیمت-دستگاه-میکسر-پودر-ریبون-بلندر",
+      "لیست-قیمت-دستگاه-میکسر-پودر-استیل-و-آهن",
+      "product/میکسر-پودر-استیل-۱۰۰-لیتری"
+    ]
+  },
+  "verified": {
+    "title": "خرید میکسر پودر صنعتی استیل و آهن از تولیدکننده | قیمت و مشاوره - پویا ماشین البرز ✅",
+    "meta": "قیمت میکسر پودر صنعتی (استیل ۳۰۴ و آهن)... ✅",
+    "price_table": "در HTML واقعی موجود ✅"
+  },
+  "backup": "20260805_mixer_landing_backup.json (full meta+content of 19500 & 19124)"
+}
