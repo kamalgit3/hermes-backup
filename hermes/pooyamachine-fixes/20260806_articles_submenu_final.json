@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-06",
+  "task": "Create 5 submenu items under مقالات in Primary nav menu + topic categories",
+  "categories_created": {
+    "میکسر پودر": {
+      "id": 2081,
+      "slug": "powder-mixer",
+      "posts": 8
+    },
+    "اسکرو کانوایر": {
+      "id": 2082,
+      "slug": "screw-conveyor",
+      "posts": 1
+    },
+    "نوار نقاله": {
+      "id": 2083,
+      "slug": "conveyor-belt",
+      "posts": 0
+    },
+    "جوش الکتروفیوژن": {
+      "id": 2084,
+      "slug": "electrofusion-welding",
+      "posts": 2
+    },
+    "محاسبات و دانش فنی": {
+      "id": 2085,
+      "slug": "technical-calculations",
+      "posts": 8
+    }
+  },
+  "menu_items_created": {
+    "میکسر پودر": 21020,
+    "اسکرو کانوایر": 21021,
+    "نوار نقاله": 21022,
+    "جوش الکتروفیوژن": 21023,
+    "محاسبات و دانش فنی": 21024
+  },
+  "parent": {
+    "menu": "Primary (1767)",
+    "item": "مقالات (8641)"
+  },
+  "posts_assigned": {
+    "میکسر پودر": [
+      4650,
+      5084,
+      18600,
+      18621,
+      19124,
+      20422,
+      20815,
+      20888
+    ],
+    "اسکرو کانوایر": [
+      4659
+    ],
+    "جوش الکتروفیوژن": [
+      17829,
+      17921
+    ],
+    "محاسبات و دانش فنی": [
+      4299,
+      4670,
+      4713,
+      4724,
+      4729,
+      4749,
+      4804,
+      5816
+    ]
+  },
+  "backup_option": "kp_menu5_backup_20260806 (menu items + categories + post-cat assignments)",
+  "verified": "All 5 submenus render in homepage HTML ✅ | All 5 category URLs return 200 ✅",
+  "note": "نوار نقاله دسته دارد ولی 0 پست — برای انتشار پستهای آینده آماده است"
+}
