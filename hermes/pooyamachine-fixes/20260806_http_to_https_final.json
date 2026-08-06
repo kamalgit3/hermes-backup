@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-06",
+  "task": "Fix all http://pooyamachine.com links → https:// (mixed content)",
+  "summary": "All live pages now serve 0 http:// links. Verified: home, about-us, contact-us, services all clean.",
+  "fixes": {
+    "post_content_883_home": 19,
+    "post_content_8610_about": 12,
+    "codevz_theme_options": 7,
+    "elementor_data_883": 35,
+    "elementor_data_8610": 23,
+    "revslider_slides_19_20": "2+2 (layers)",
+    "revslider_slides7_11_13": "2+2 (params) + 2+2 (layers)"
+  },
+  "key_insight": "لینک‌ها در ۳ لایه مختلف ذخیره شده بودن: (1) post_content — http ساده، (2) _elementor_data — با escape شده http:\\/\\/، (3) جداول revslider — با escape شده. جستجوی ساده فقط لایه اول رو پیدا می‌کرد.",
+  "backup_option": "kp_http_fix_backup_20260806 (full before-state: post_content, theme options, elementor data, revslider rows)",
+  "not_touched": [
+    "post 20970 (flamingo_inbound email text)",
+    "revisions (inherit)",
+    "bsr_data (plugin serialized)",
+    "backup options",
+    "transients"
+  ],
+  "verified_pages": [
+    "/ (0 http)",
+    "/about-us/ (0)",
+    "/contact-us/ (0)",
+    "/services/ (0)"
+  ],
+  "site_health_after": "menu ✅ | slider ✅ | client logos ✅"
+}
