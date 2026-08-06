@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-06",
+  "task": "Fix broken 410 link in Primary nav menu (هیدرولیک → گرانول deleted category)",
+  "finding": {
+    "audit": "Broken 410 link to /product-category/دستگاه-ساخت-یخ-خشک/گرانول/ found in audit",
+    "root_cause": "Menu item 19114 titled «هیدرولیک» pointed to deleted category «گرانول» (URL/title mismatch — گرانول term deleted, هیدرولیک term 2011 still exists)",
+    "scope": "Swept all 36 Primary menu URLs via HEAD: only 1 dead link (19114). Items 19117/19118 contain گرانول in path but target live sub-terms (200)."
+  },
+  "fix": {
+    "item_id": 19114,
+    "old_url": "https://pooyamachine.com/product-category/دستگاه-ساخت-یخ-خشک/گرانول/",
+    "new_url": "https://pooyamachine.com/product-category/دستگاه-ساخت-یخ-خشک/هیدرولیک/",
+    "verified": "menu HTML now shows هیدرولیک → /هیدرولیک/ (200) ✅"
+  },
+  "backup": "kp_menu_19114_backup option (old_url)",
+  "database_clean": "9 original snippets, no temp ✅"
+}
