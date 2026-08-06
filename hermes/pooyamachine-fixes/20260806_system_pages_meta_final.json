@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-06",
+  "task": "Meta fix for 6 system pages + ribbon blender category rename",
+  "changes": [
+    {
+      "page": "products-compare (1957)",
+      "action": "noindex",
+      "result": "robots=follow, noindex ✅"
+    },
+    {
+      "page": "wishlist (18801)",
+      "action": "noindex",
+      "result": "robots=follow, noindex ✅"
+    },
+    {
+      "page": "category دسته‌بندی‌نشده (term 15)",
+      "action": "noindex",
+      "result": "robots=follow, noindex ✅"
+    },
+    {
+      "page": "category دستگاه ریبون بلندر (term 2052)",
+      "action": "title+desc+rename",
+      "title": "خرید دستگاه ریبون بلندر و میکسر پودر صنعتی از تولیدکننده | پویا ماشین البرز",
+      "desc": "قیمت و خرید دستگاه ریبون بلندر (میکسر پودر) از تولیدکننده...",
+      "rename": "«دستگاه ریبون بلندر (میکسر پودر) a» → «دستگاه ریبون بلندر (میکسر پودر)»",
+      "slug": "دستگاه-ریبون-بلندر-میکسر-پودر-a → دستگاه-ریبون-بلندر-میکسر-پودر",
+      "redirect_301": "old -a URL → new URL (id 44) ✅"
+    },
+    {
+      "page": "author kamal (user 6)",
+      "action": "title+desc",
+      "result": "✅"
+    },
+    {
+      "page": "author marzieh (user 2)",
+      "action": "title+desc",
+      "result": "✅"
+    }
+  ],
+  "redirect_cleanup": {
+    "deleted_old_410s": [
+      5,
+      34,
+      35
+    ],
+    "cleaned_410_24": "kept non-ribbon feloraweb spam patterns",
+    "deleted_bad_301_43": "pattern without product-category/ prefix"
+  },
+  "internal_links_to_old_url": 0,
+  "backup_option": "kp_meta8_backup_20260806 (full rollback: pages/terms/users meta + redirections table)",
+  "verified_from_live_html": true
+}
