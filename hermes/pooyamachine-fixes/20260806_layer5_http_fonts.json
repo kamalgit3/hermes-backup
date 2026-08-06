@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-06",
+  "title": "Layer 5 http->https: Elementor google-fonts CSS",
+  "summary": "رفع لایه پنجم لینک‌های http: فایل‌های کش CSS گوگل‌فونت Elementor (roboto.css, robotoslab.css) که با http:// لود می‌شدند → Mixed Content",
+  "root_cause": "فایل‌های CSS کش‌شده Elementor (uploads/elementor/google-fonts/css/) قبل از نصب SSL ساخته شده بودند و 225 مورد http://pooyamachine.com در src فونت‌ها داشتند. این لایه در HTML صفحه دیده نمی‌شد (فایل CSS جداگانه است) و فقط با تست مرورگر واقعی (Playwright console errors) قابل کشف بود.",
+  "files_fixed": [
+    {
+      "file": "roboto.css",
+      "http_before": 162,
+      "http_after": 0,
+      "backup": "roboto.css.bak-20260806"
+    },
+    {
+      "file": "robotoslab.css",
+      "http_before": 63,
+      "http_after": 0,
+      "backup": "robotoslab.css.bak-20260806"
+    }
+  ],
+  "method": "اسنیپت PHP موقت (kp-l5-fix-temp) → str_replace('http://pooyamachine.com', 'https://pooyamachine.com', $content) + بکاپ یک‌بار در روز + Elementor files_manager clear_cache",
+  "verification": {
+    "mixed_content_errors_console": 0,
+    "http_requests_in_page": 0,
+    "font_requests_all_https": true,
+    "tool": "Playwright (mobile viewport, networkidle, console capture)"
+  },
+  "snippets_used": [
+    "kp-l5-scan-temp (117)",
+    "kp-l5-sample-temp (118)",
+    "kp-l5-fix-temp (119)"
+  ],
+  "snippets_removed": [
+    "kp-l5-scan-temp (117)",
+    "kp-l5-sample-temp (118)",
+    "kp-l5-fix-temp (119)"
+  ],
+  "status": "COMPLETE - تمام 5 لایه http->https بسته شد"
+}
