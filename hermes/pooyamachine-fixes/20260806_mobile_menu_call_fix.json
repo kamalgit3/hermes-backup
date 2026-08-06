@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-06",
+  "title": "mobile menu fix + quick call button",
+  "summary": "ریشه‌یابی و رفع مشکل منوی موبایل (wp_footer در قالب Xtra خراب بود) + دکمه تماس سریع موبایل",
+  "root_cause": "theme-functions.php قالب Xtra (شخصی‌سازی‌شده) فقط در حالت elementor-preview wp_footer() را صدا می‌زد → اسکریپت‌های قالب (custom.js, mobile-nav.js, codevz-menu.min.js) هیچ‌وقت لود نمی‌شدند → منوی موبایل مرده بود",
+  "snippets_created": [
+    {
+      "id": 110,
+      "name": "kp-footer-fix",
+      "type": "permanent",
+      "desc": "بافر خروجی + صدا زدن wp_footer() در shutdown اگر اجرا نشده بود"
+    },
+    {
+      "id": 112,
+      "name": "kp-mobile-menu-css",
+      "type": "permanent",
+      "desc": "نمایش همبرگر منوی موبایل در موبایل (CSS)"
+    },
+    {
+      "id": 115,
+      "name": "kp-offcanvas-css",
+      "type": "permanent",
+      "desc": "نمایش پنل منوی آف‌کانواس موبایل (CSS)"
+    },
+    {
+      "id": 102,
+      "name": "kp-mobile-call",
+      "type": "permanent",
+      "desc": "دکمه تماس سریع موبایل (فقط تلفن، بدون واتساپ تکراری)"
+    }
+  ],
+  "snippets_removed": [
+    "kp-purge-temp (101,111)",
+    "kp-cleanup-temp (116)",
+    "kp-test-hooks-temp (103)",
+    "kp-diag-footer-temp (104)",
+    "kp-diag2-temp (105)",
+    "kp-diag3-temp (106)",
+    "kp-diag4-temp (107)",
+    "kp-diag5-temp (108)",
+    "kp-diag6-temp (109)",
+    "kp-diag7-temp (113)",
+    "kp-diag8-temp (114)"
+  ],
+  "verification": {
+    "menu_open": "پنل 340x812 باز می‌شود، 23 آیتم قابل مشاهده",
+    "menu_close": "کلاس active_offcanvas حذف می‌شود",
+    "scripts_loaded": [
+      "custom.js",
+      "mobile-nav.js",
+      "codevz-menu.min.js",
+      "sticky.js",
+      "woocommerce.js"
+    ],
+    "ga4": "1 اسکریپت + 1 config بدون تکرار",
+    "form_tracking": "wpcf7mailsent سر جایش",
+    "call_button": "فقط 1 دکمه تلفن (tel:09124154262)، بدون تداخل با واتساپ پلاگین"
+  },
+  "known_issues": [
+    "فونت‌های Elementor هنوز http هستند (Mixed Content) - لایه پنجم لینک‌های http، نیاز به رفع در جلسه بعد",
+    "کد قالب Xtra دستکاری شده (کامنت فارسی + باگ wp_footer) - آپدیت قالب ممکن است ریست کند، اسنیپت kp-footer-fix محافظ است"
+  ],
+  "files": [
+    "/tmp/menu_test.py",
+    "/tmp/menu_click_test.py",
+    "/tmp/menu_click2.py",
+    "/tmp/menu_full_test.py",
+    "/tmp/menu_js_test.py",
+    "/tmp/menu_diag*.py",
+    "/tmp/call_btn_test.py",
+    "/tmp/bottom_layout_test.py",
+    "/tmp/footer_fix_snippet.php",
+    "/tmp/mobile_menu_css_snippet.php",
+    "/tmp/offcanvas_css_snippet.php",
+    "/tmp/mobile_call_v3.php"
+  ]
+}
