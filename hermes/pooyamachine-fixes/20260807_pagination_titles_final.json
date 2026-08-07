@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-07",
+  "task": "archive pagination titles fix (Rank Math %page% empty bug)",
+  "files": {
+    "kp_page_title_snippet.php": "// kp-page-title: Rank Math %page% را روی آرشیوهای صفحه‌بندی‌شده خالی رندر می‌کند؛\n// این فیلتر «| صفحه N» فارسی را اضافه می‌کند (بدون تکرار اگر از قبل هست).\nadd_filter('rank_math/frontend/title', function ($title) {\n    if (!is_paged()) {\n        return $title;\n    }\n    $paged = get_query_var('paged') ? (int) get_query_var('paged') : 1;\n    $fa = strtr((string) $paged, ['0' => '۰', '1' => '۱', '2' => '۲', '3' => '۳', '4' => '۴', '5' => '۵', '6' => '۶', '7' => '۷', '8' => '۸', '9' => '۹']);\n    if (strpos($title, 'صفحه ' . $fa) !== false || strpos($title, 'Page ' . $paged) !== false) {\n        return $title;\n    }\n    return rtrim($title) . ' | صفحه ' . $fa;\n}, 99);\n"
+  },
+  "before": {
+    "blog_p2": "مقالات فنی پویا ماشین البرز | اطلاعات تخصصی ماشینآلات صنعتی [RMPAGED:2] [DOCTITLE:2]",
+    "products_p2": "خرید تجهیزات صنعتی و ماشینآلات تولید | پویا ماشین البرز [RMPAGED:2] [DOCTITLE:2]"
+  },
+  "after": {
+    "blog_p2": "مقالات فنی پویا ماشین البرز | اطلاعات تخصصی ماشینآلات صنعتی | صفحه ۲",
+    "blog_p3": "مقالات فنی پویا ماشین البرز | اطلاعات تخصصی ماشینآلات صنعتی | صفحه ۳",
+    "products_p2": "خرید تجهیزات صنعتی و ماشینآلات تولید | پویا ماشین البرز | صفحه ۲"
+  },
+  "cleanup": "19 temp snippets deleted via kp-temp-cleanup3 ($wpdb), LiteSpeed purged",
+  "permanent_snippet_id": 130
+}
