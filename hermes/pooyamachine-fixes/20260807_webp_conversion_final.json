@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-07",
+  "task": "WebP conversion of full media library (EWWW local mode + GD)",
+  "method": "EWWW enabled (option ewww_image_optimizer_webp=1) + .htaccess webp serve rules added (backup .htaccess.bak-webp-*) + custom GD batch converter snippet (kp-temp-webpconv)",
+  "results": {
+    "source_files_processed": 202,
+    "webp_files_created_this_session": 1493,
+    "webp_files_on_disk_total": 1603,
+    "total_webp_bytes": 41556648,
+    "total_webp_mb": 39.6,
+    "errors": 0,
+    "by_year": {
+      "2018": 163,
+      "2019": 22,
+      "2021": 150,
+      "2024": 88,
+      "2025": 1076,
+      "2026": 104
+    }
+  },
+  "verify": {
+    "live_test": "https://pooyamachine.com/wp-content/uploads/2026/01/خرید-اسکرو-کانوایر-min.png",
+    "with_webp_accept": "image/webp 43230 bytes (was 161835) -> 73% lighter",
+    "without_webp_accept": "image/png 161835 bytes (original served)"
+  },
+  "config_changed": {
+    "ewww_image_optimizer_webp": 1,
+    "htaccess": "webp serve rewrite rules added, backup at .htaccess.bak-webp-20260807",
+    "temp_snippets_cleaned": [
+      "kp-temp-webpconv",
+      "kp-temp-cleanup4",
+      "kp-temp-webpcount"
+    ],
+    "progress_option_removed": true
+  },
+  "permanent_snippets_remaining": [
+    "tag-og(9)",
+    "kp-ga4-tag(98)",
+    "kp-mobile-call(102)",
+    "kp-footer-fix(110)",
+    "kp-mobile-menu-css(112)",
+    "kp-offcanvas-css(115)",
+    "kp-page-title(130)"
+  ]
+}
