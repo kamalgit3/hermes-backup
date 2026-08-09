@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-09",
+  "work": "Density knowledge hub (hub-and-spoke)",
+  "created": {
+    "hub": {
+      "id": 21462,
+      "url": "https://pooyamachine.com/density/"
+    },
+    "material_pages": 15,
+    "ids": [
+      21447,
+      21448,
+      21449,
+      21450,
+      21451,
+      21452,
+      21453,
+      21454,
+      21455,
+      21456,
+      21457,
+      21458,
+      21459,
+      21460,
+      21461
+    ]
+  },
+  "snippet": {
+    "id": 196,
+    "name": "kp-density-meta",
+    "status": "deactivated after run"
+  },
+  "titles": "Rank Math titles with density numbers (e.g. چگالی سیمان پرتلند ۱٫۱ تا ۱٫۵ kg/L)",
+  "verified": "15/15 material pages live with FAQ schema + WA CTA + product link"
+}
