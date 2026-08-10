@@ -3042,5 +3042,73 @@
   "sources": [
    "مقادیر استاندارد چگالی توده‌ای سولفات پتاسیم (ثبت 2026-08)"
   ]
+ },
+ {
+  "name": "بنتونیت",
+  "aliases": [
+   "bentonite",
+   "Bentonite"
+  ],
+  "density": {
+   "min": 0.55,
+   "typical": 0.7,
+   "max": 0.9
+  },
+  "category": "mineral",
+  "validation_status": "partial",
+  "sources": [
+   "مقادیر مرجع صنعتی (تخمینی؛ صفحه ماده سایت — تعیین چگالی روی نمونه واقعی توصیه می‌شود)"
+  ]
+ },
+ {
+  "name": "گچ",
+  "aliases": [
+   "gypsum",
+   "Gypsum"
+  ],
+  "density": {
+   "min": 0.85,
+   "typical": 1.1,
+   "max": 1.3
+  },
+  "category": "mineral",
+  "validation_status": "partial",
+  "sources": [
+   "مقادیر مرجع صنعتی (تخمینی؛ صفحه ماده سایت — تعیین چگالی روی نمونه واقعی توصیه می‌شود)"
+  ]
+ },
+ {
+  "name": "تالک صنعتی",
+  "aliases": [
+   "talc",
+   "Talc"
+  ],
+  "density": {
+   "min": 0.25,
+   "typical": 0.45,
+   "max": 0.7
+  },
+  "category": "mineral",
+  "validation_status": "partial",
+  "sources": [
+   "مقادیر مرجع صنعتی (تخمینی؛ صفحه ماده سایت — تعیین چگالی روی نمونه واقعی توصیه می‌شود)"
+  ]
+ },
+ {
+  "name": "پودر سیلیس",
+  "aliases": [
+   "silica flour",
+   "Silica Flour"
+  ],
+  "density": {
+   "min": 1.1,
+   "typical": 1.35,
+   "max": 1.6
+  },
+  "category": "mineral",
+  "validation_status": "partial",
+  "sources": [
+   "مقادیر مرجع صنعتی (تخمینی؛ صفحه ماده سایت — تعیین چگالی روی نمونه واقعی توصیه می‌شود)"
+  ]
  }
 ]
