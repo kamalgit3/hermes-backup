@@ -1,0 +1,3046 @@
+[
+ {
+  "name": "آرد گندم",
+  "aliases": [
+   "wheat_flour",
+   "Wheat Flour"
+  ],
+  "density": {
+   "min": 0.55,
+   "typical": 0.65,
+   "max": 0.75
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد کامل سبوس‌دار",
+  "aliases": [
+   "food_002"
+  ],
+  "density": {
+   "min": 0.531,
+   "typical": 0.625,
+   "max": 0.719
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد برنج",
+  "aliases": [
+   "food_003"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد ذرت",
+  "aliases": [
+   "food_004"
+  ],
+  "density": {
+   "min": 0.501,
+   "typical": 0.59,
+   "max": 0.678
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر شیر کامل",
+  "aliases": [
+   "food_005"
+  ],
+  "density": {
+   "min": 0.489,
+   "typical": 0.575,
+   "max": 0.661
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "تطبیق‌شده با دیتابیس لایو قبلی سایت (نسخه قدیمی ماشین‌حساب)"
+  ]
+ },
+ {
+  "name": "پودر شیر بدون چربی",
+  "aliases": [
+   "food_006"
+  ],
+  "density": {
+   "min": 0.383,
+   "typical": 0.45,
+   "max": 0.517
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر پروتئین وی",
+  "aliases": [
+   "whey_protein",
+   "Whey Protein"
+  ],
+  "density": {
+   "min": 0.4,
+   "typical": 0.5,
+   "max": 0.58
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "تطبیق‌شده با دیتابیس لایو قبلی سایت (نسخه قدیمی ماشین‌حساب)"
+  ]
+ },
+ {
+  "name": "پودر پروتئین سویا",
+  "aliases": [
+   "food_008"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر تخم مرغ کامل",
+  "aliases": [
+   "food_009"
+  ],
+  "density": {
+   "min": 0.446,
+   "typical": 0.525,
+   "max": 0.604
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر سفیده تخم مرغ",
+  "aliases": [
+   "food_010"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر زرده تخم مرغ",
+  "aliases": [
+   "food_011"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر پنیر خشک",
+  "aliases": [
+   "food_012"
+  ],
+  "density": {
+   "min": 0.552,
+   "typical": 0.65,
+   "max": 0.747
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر خامه خشک",
+  "aliases": [
+   "food_013"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "شکر دانه‌ای",
+  "aliases": [
+   "food_014"
+  ],
+  "density": {
+   "min": 0.722,
+   "typical": 0.85,
+   "max": 0.977
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "شکر پودری (پودر قند)",
+  "aliases": [
+   "powdered_sugar",
+   "Powdered Sugar"
+  ],
+  "density": {
+   "min": 0.8,
+   "typical": 0.9,
+   "max": 0.95
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "تطبیق‌شده با دیتابیس لایو قبلی سایت (نسخه قدیمی ماشین‌حساب)"
+  ]
+ },
+ {
+  "name": "نمک خوراکی ریز",
+  "aliases": [
+   "salt_fine",
+   "Salt Fine"
+  ],
+  "density": {
+   "min": 1.05,
+   "typical": 1.15,
+   "max": 1.25
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "تطبیق‌شده با دیتابیس لایو قبلی سایت (نسخه قدیمی ماشین‌حساب)"
+  ]
+ },
+ {
+  "name": "پودر کاکائو",
+  "aliases": [
+   "cocoa_powder",
+   "Cocoa Powder"
+  ],
+  "density": {
+   "min": 0.48,
+   "typical": 0.56,
+   "max": 0.64
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "تطبیق‌شده با دیتابیس لایو قبلی سایت (نسخه قدیمی ماشین‌حساب)"
+  ]
+ },
+ {
+  "name": "شکلات پودری فوری",
+  "aliases": [
+   "food_018"
+  ],
+  "density": {
+   "min": 0.446,
+   "typical": 0.525,
+   "max": 0.604
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر قهوه فوری",
+  "aliases": [
+   "food_019"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "قهوه آسیاب شده",
+  "aliases": [
+   "food_020"
+  ],
+  "density": {
+   "min": 0.361,
+   "typical": 0.425,
+   "max": 0.489
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "نشاسته ذرت",
+  "aliases": [
+   "food_021"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "تطبیق‌شده با دیتابیس لایو قبلی سایت (نسخه قدیمی ماشین‌حساب)"
+  ]
+ },
+ {
+  "name": "نشاسته سیب‌زمینی",
+  "aliases": [
+   "food_022"
+  ],
+  "density": {
+   "min": 0.531,
+   "typical": 0.625,
+   "max": 0.719
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد سوخاری",
+  "aliases": [
+   "food_023"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر سویا (آرد)",
+  "aliases": [
+   "food_024"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد نخودچی",
+  "aliases": [
+   "food_025"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد عدس",
+  "aliases": [
+   "food_026"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر پروتئین گیاهی مخلوط",
+  "aliases": [
+   "food_027"
+  ],
+  "density": {
+   "min": 0.404,
+   "typical": 0.475,
+   "max": 0.546
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر ژلاتین",
+  "aliases": [
+   "food_028"
+  ],
+  "density": {
+   "min": 0.404,
+   "typical": 0.475,
+   "max": 0.546
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کلاژن",
+  "aliases": [
+   "food_029"
+  ],
+  "density": {
+   "min": 0.361,
+   "typical": 0.425,
+   "max": 0.489
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر مالت",
+  "aliases": [
+   "food_030"
+  ],
+  "density": {
+   "min": 0.446,
+   "typical": 0.525,
+   "max": 0.604
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر تخم کتان",
+  "aliases": [
+   "food_031"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کنجد",
+  "aliases": [
+   "food_032"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد بادام",
+  "aliases": [
+   "food_033"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر نارگیل خشک",
+  "aliases": [
+   "food_034"
+  ],
+  "density": {
+   "min": 0.297,
+   "typical": 0.35,
+   "max": 0.402
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر آجیل مخلوط آردی",
+  "aliases": [
+   "food_035"
+  ],
+  "density": {
+   "min": 0.446,
+   "typical": 0.525,
+   "max": 0.604
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر سیب خشک",
+  "aliases": [
+   "food_036"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر موز خشک",
+  "aliases": [
+   "food_037"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر توت خشک",
+  "aliases": [
+   "food_038"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر انبه خشک",
+  "aliases": [
+   "food_039"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر آناناس خشک",
+  "aliases": [
+   "food_040"
+  ],
+  "density": {
+   "min": 0.319,
+   "typical": 0.375,
+   "max": 0.431
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر چیپس میوه میکس",
+  "aliases": [
+   "food_041"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر سبزیجات خشک مخلوط",
+  "aliases": [
+   "food_042"
+  ],
+  "density": {
+   "min": 0.234,
+   "typical": 0.275,
+   "max": 0.316
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر گوجه خشک",
+  "aliases": [
+   "food_043"
+  ],
+  "density": {
+   "min": 0.361,
+   "typical": 0.425,
+   "max": 0.489
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر پیاز خشک",
+  "aliases": [
+   "food_044"
+  ],
+  "density": {
+   "min": 0.361,
+   "typical": 0.425,
+   "max": 0.489
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر سیر خشک",
+  "aliases": [
+   "food_045"
+  ],
+  "density": {
+   "min": 0.404,
+   "typical": 0.475,
+   "max": 0.546
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر قارچ خشک",
+  "aliases": [
+   "food_046"
+  ],
+  "density": {
+   "min": 0.319,
+   "typical": 0.375,
+   "max": 0.431
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر اسفناج خشک",
+  "aliases": [
+   "food_047"
+  ],
+  "density": {
+   "min": 0.212,
+   "typical": 0.25,
+   "max": 0.287
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر هویج خشک",
+  "aliases": [
+   "food_048"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر چغندر خشک",
+  "aliases": [
+   "food_049"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کرفس خشک",
+  "aliases": [
+   "food_050"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر نخود فرنگی خشک",
+  "aliases": [
+   "food_051"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر لوبیا خشک آردی",
+  "aliases": [
+   "food_052"
+  ],
+  "density": {
+   "min": 0.489,
+   "typical": 0.575,
+   "max": 0.661
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر ماهی خشک پروتئین دریایی",
+  "aliases": [
+   "food_053"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر گوشت خشک (گوشت قرمز)",
+  "aliases": [
+   "food_054"
+  ],
+  "density": {
+   "min": 0.552,
+   "typical": 0.65,
+   "max": 0.747
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر مرغ خشک",
+  "aliases": [
+   "food_055"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر سبوس گندم",
+  "aliases": [
+   "food_056"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر نشاسته خوراکی مخلوط",
+  "aliases": [
+   "food_057"
+  ],
+  "density": {
+   "min": 0.446,
+   "typical": 0.525,
+   "max": 0.604
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "ادویه‌های پودری مانند فلفل سیاه",
+  "aliases": [
+   "food_058"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر زعفران",
+  "aliases": [
+   "food_059"
+  ],
+  "density": {
+   "min": 0.17,
+   "typical": 0.2,
+   "max": 0.23
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر عصاره سبزی و ادویه میکس فوری",
+  "aliases": [
+   "food_060"
+  ],
+  "density": {
+   "min": 0.297,
+   "typical": 0.35,
+   "max": 0.402
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کدو خشک",
+  "aliases": [
+   "food_061"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کلم خشک",
+  "aliases": [
+   "food_062"
+  ],
+  "density": {
+   "min": 0.246,
+   "typical": 0.29,
+   "max": 0.333
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر نخود خشک",
+  "aliases": [
+   "food_063"
+  ],
+  "density": {
+   "min": 0.489,
+   "typical": 0.575,
+   "max": 0.661
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر عدس خشک",
+  "aliases": [
+   "food_064"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر تخم مرغ پاستوریزه صنعتی",
+  "aliases": [
+   "food_065"
+  ],
+  "density": {
+   "min": 0.446,
+   "typical": 0.525,
+   "max": 0.604
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کربوهیدرات (مالتودکسترین)",
+  "aliases": [
+   "food_066"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر عصاره گوشت خشک شده",
+  "aliases": [
+   "food_067"
+  ],
+  "density": {
+   "min": 0.552,
+   "typical": 0.65,
+   "max": 0.747
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر عصاره ماهی خشک شده",
+  "aliases": [
+   "food_068"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر زیتون خشک",
+  "aliases": [
+   "food_069"
+  ],
+  "density": {
+   "min": 0.319,
+   "typical": 0.375,
+   "max": 0.431
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر لیمو خشک",
+  "aliases": [
+   "food_070"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "food",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سدیم کلرید",
+  "aliases": [
+   "chemical_001"
+  ],
+  "density": {
+   "min": 0.999,
+   "typical": 1.175,
+   "max": 1.351
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سدیم بی‌کربنات",
+  "aliases": [
+   "baking_soda",
+   "Baking Soda"
+  ],
+  "density": {
+   "min": 0.55,
+   "typical": 0.65,
+   "max": 0.75
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سدیم هیدروکسید",
+  "aliases": [
+   "chemical_003"
+  ],
+  "density": {
+   "min": 0.85,
+   "typical": 1.0,
+   "max": 1.15
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پتاسیم کلرید",
+  "aliases": [
+   "chemical_004"
+  ],
+  "density": {
+   "min": 0.935,
+   "typical": 1.1,
+   "max": 1.265
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پتاسیم نیترات",
+  "aliases": [
+   "chemical_005"
+  ],
+  "density": {
+   "min": 0.85,
+   "typical": 1.0,
+   "max": 1.15
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آمونیوم نیترات",
+  "aliases": [
+   "chemical_006"
+  ],
+  "density": {
+   "min": 0.765,
+   "typical": 0.9,
+   "max": 1.035
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سدیم نیترات",
+  "aliases": [
+   "chemical_007"
+  ],
+  "density": {
+   "min": 0.85,
+   "typical": 1.0,
+   "max": 1.15
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سدیم سولفات",
+  "aliases": [
+   "chemical_008"
+  ],
+  "density": {
+   "min": 0.722,
+   "typical": 0.85,
+   "max": 0.977
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کلسیم کربنات",
+  "aliases": [
+   "ca_carbonate",
+   "Calcium Carbonate"
+  ],
+  "density": {
+   "min": 0.6,
+   "typical": 0.7,
+   "max": 0.85
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کلسیم هیدروکسید آهک هیدراته",
+  "aliases": [
+   "chemical_010"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "منیزیم سولفات",
+  "aliases": [
+   "chemical_011"
+  ],
+  "density": {
+   "min": 0.637,
+   "typical": 0.75,
+   "max": 0.862
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آهن اکسید",
+  "aliases": [
+   "chemical_012"
+  ],
+  "density": {
+   "min": 0.85,
+   "typical": 1.0,
+   "max": 1.15
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "اکسید آلومینیوم آلومینا",
+  "aliases": [
+   "chemical_013"
+  ],
+  "density": {
+   "min": 0.722,
+   "typical": 0.85,
+   "max": 0.977
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سیلیکا / سیلیکاژل",
+  "aliases": [
+   "chemical_014"
+  ],
+  "density": {
+   "min": 0.297,
+   "typical": 0.35,
+   "max": 0.402
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کربن فعال",
+  "aliases": [
+   "chemical_015"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "زئولیت",
+  "aliases": [
+   "chemical_016"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کلسیم فسفات",
+  "aliases": [
+   "chemical_017"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "دی‌سدیم فسفات",
+  "aliases": [
+   "chemical_018"
+  ],
+  "density": {
+   "min": 0.574,
+   "typical": 0.675,
+   "max": 0.776
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "منیزیم استئارات",
+  "aliases": [
+   "chemical_019"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "تیتانیوم دی‌اکسید",
+  "aliases": [
+   "chemical_020"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سیلیکات سدیم",
+  "aliases": [
+   "chemical_021"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "باریم سولفات",
+  "aliases": [
+   "chemical_022"
+  ],
+  "density": {
+   "min": 0.85,
+   "typical": 1.0,
+   "max": 1.15
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "لیتیم هیدروکسید",
+  "aliases": [
+   "chemical_023"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "نیکل سولفات",
+  "aliases": [
+   "chemical_024"
+  ],
+  "density": {
+   "min": 0.68,
+   "typical": 0.8,
+   "max": 0.92
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "روی اکسید",
+  "aliases": [
+   "chemical_025"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پراکسید هیدروژن تثبیت‌شده پودری",
+  "aliases": [
+   "chemical_026"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "منگنز دی‌اکسید",
+  "aliases": [
+   "chemical_027"
+  ],
+  "density": {
+   "min": 0.637,
+   "typical": 0.75,
+   "max": 0.862
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پتاسیم پرمنگنات",
+  "aliases": [
+   "chemical_028"
+  ],
+  "density": {
+   "min": 0.637,
+   "typical": 0.75,
+   "max": 0.862
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "هیدروکسید کلسیم (آهک)",
+  "aliases": [
+   "chemical_029"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سیلیکات کلسیم",
+  "aliases": [
+   "chemical_030"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کربنات سدیم Na2CO3",
+  "aliases": [
+   "soda_ash",
+   "Soda Ash"
+  ],
+  "density": {
+   "min": 0.65,
+   "typical": 0.75,
+   "max": 0.85
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سولفات آلومینیوم (آلوم)",
+  "aliases": [
+   "chemical_032"
+  ],
+  "density": {
+   "min": 0.595,
+   "typical": 0.7,
+   "max": 0.805
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کلرید کلسیم",
+  "aliases": [
+   "chemical_033"
+  ],
+  "density": {
+   "min": 0.892,
+   "typical": 1.05,
+   "max": 1.208
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کلرید آمونیوم",
+  "aliases": [
+   "chemical_034"
+  ],
+  "density": {
+   "min": 0.722,
+   "typical": 0.85,
+   "max": 0.977
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "نانوسیلات / مونتموریلونیت",
+  "aliases": [
+   "chemical_035"
+  ],
+  "density": {
+   "min": 0.212,
+   "typical": 0.25,
+   "max": 0.287
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سیلیکون کارباید",
+  "aliases": [
+   "chemical_036"
+  ],
+  "density": {
+   "min": 0.765,
+   "typical": 0.9,
+   "max": 1.035
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آلومینیوم پودر فلزی",
+  "aliases": [
+   "chemical_037"
+  ],
+  "density": {
+   "min": 0.297,
+   "typical": 0.35,
+   "max": 0.402
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آهن پودر فلزی",
+  "aliases": [
+   "chemical_038"
+  ],
+  "density": {
+   "min": 0.722,
+   "typical": 0.85,
+   "max": 0.977
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "مس پودر فلزی",
+  "aliases": [
+   "chemical_039"
+  ],
+  "density": {
+   "min": 0.68,
+   "typical": 0.8,
+   "max": 0.92
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سرب پودر",
+  "aliases": [
+   "chemical_040"
+  ],
+  "density": {
+   "min": 0.85,
+   "typical": 1.0,
+   "max": 1.15
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "روی پودر فلزی",
+  "aliases": [
+   "chemical_041"
+  ],
+  "density": {
+   "min": 0.595,
+   "typical": 0.7,
+   "max": 0.805
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آنتیموان پودر",
+  "aliases": [
+   "chemical_042"
+  ],
+  "density": {
+   "min": 0.595,
+   "typical": 0.7,
+   "max": 0.805
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پلی‌اتیلن پودر",
+  "aliases": [
+   "chemical_043"
+  ],
+  "density": {
+   "min": 0.178,
+   "typical": 0.21,
+   "max": 0.241
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پلی وینیل الکل",
+  "aliases": [
+   "chemical_044"
+  ],
+  "density": {
+   "min": 0.383,
+   "typical": 0.45,
+   "max": 0.517
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پلی‌اتیلن گلیکول پودری",
+  "aliases": [
+   "chemical_045"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "نشاسته صنعتی اصلاح‌شده",
+  "aliases": [
+   "chemical_046"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سولفات مس",
+  "aliases": [
+   "chemical_047"
+  ],
+  "density": {
+   "min": 0.659,
+   "typical": 0.775,
+   "max": 0.891
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کلرید آهن خشک",
+  "aliases": [
+   "chemical_048"
+  ],
+  "density": {
+   "min": 0.595,
+   "typical": 0.7,
+   "max": 0.805
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "فسفات دی‌پتاسیوم",
+  "aliases": [
+   "chemical_049"
+  ],
+  "density": {
+   "min": 0.659,
+   "typical": 0.775,
+   "max": 0.891
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سدیم متاسیلیکات",
+  "aliases": [
+   "chemical_050"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سوربیتول پودر",
+  "aliases": [
+   "chemical_051"
+  ],
+  "density": {
+   "min": 0.637,
+   "typical": 0.75,
+   "max": 0.862
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "نمک‌های هیدراته مخلوط",
+  "aliases": [
+   "chemical_052"
+  ],
+  "density": {
+   "min": 0.637,
+   "typical": 0.75,
+   "max": 0.862
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کلرید پتاسیم",
+  "aliases": [
+   "chemical_053"
+  ],
+  "density": {
+   "min": 0.85,
+   "typical": 1.0,
+   "max": 1.15
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "فریت‌های مغناطیسی پودری",
+  "aliases": [
+   "chemical_054"
+  ],
+  "density": {
+   "min": 0.765,
+   "typical": 0.9,
+   "max": 1.035
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "اوره پودری",
+  "aliases": [
+   "chemical_055"
+  ],
+  "density": {
+   "min": 0.68,
+   "typical": 0.8,
+   "max": 0.92
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر متاکریلات‌ها و رزین‌ها",
+  "aliases": [
+   "chemical_056"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودرهای کربنی افزودنی",
+  "aliases": [
+   "chemical_057"
+  ],
+  "density": {
+   "min": 0.383,
+   "typical": 0.45,
+   "max": 0.517
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "اسید سیتریک پودری",
+  "aliases": [
+   "chemical_058"
+  ],
+  "density": {
+   "min": 0.552,
+   "typical": 0.65,
+   "max": 0.747
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سدیم سولفیت / متابی‌سولفیت",
+  "aliases": [
+   "chemical_059"
+  ],
+  "density": {
+   "min": 0.595,
+   "typical": 0.7,
+   "max": 0.805
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "هگزامتا فسفات و پودرهای تصفیه آب",
+  "aliases": [
+   "chemical_060"
+  ],
+  "density": {
+   "min": 0.531,
+   "typical": 0.625,
+   "max": 0.719
+  },
+  "category": "chemical",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کنجاله سویا پودری",
+  "aliases": [
+   "soy_meal",
+   "Soybean Meal"
+  ],
+  "density": {
+   "min": 0.5,
+   "typical": 0.575,
+   "max": 0.65
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد ماهی",
+  "aliases": [
+   "animal_002",
+   "Fish meal"
+  ],
+  "density": {
+   "min": 0.552,
+   "typical": 0.65,
+   "max": 0.747
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر گوشت و استخوان",
+  "aliases": [
+   "animal_003",
+   "MBM"
+  ],
+  "density": {
+   "min": 0.574,
+   "typical": 0.675,
+   "max": 0.776
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر خون خشک",
+  "aliases": [
+   "animal_004",
+   "Blood meal"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر لبنیات",
+  "aliases": [
+   "animal_005",
+   "Whey powder"
+  ],
+  "density": {
+   "min": 0.446,
+   "typical": 0.525,
+   "max": 0.604
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد ذرت خوراکی",
+  "aliases": [
+   "animal_006",
+   "Corn meal"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سبوس گندم پودری",
+  "aliases": [
+   "animal_007"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سبوس برنج پودری",
+  "aliases": [
+   "animal_008"
+  ],
+  "density": {
+   "min": 0.383,
+   "typical": 0.45,
+   "max": 0.517
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "یونجه خشک آردی",
+  "aliases": [
+   "animal_009",
+   "Alfalfa meal"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر شبدر",
+  "aliases": [
+   "animal_010",
+   "Clover meal"
+  ],
+  "density": {
+   "min": 0.246,
+   "typical": 0.29,
+   "max": 0.333
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کاه و کلش آسیاب‌شده",
+  "aliases": [
+   "animal_011"
+  ],
+  "density": {
+   "min": 0.17,
+   "typical": 0.2,
+   "max": 0.23
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کنجاله کلزا",
+  "aliases": [
+   "animal_012",
+   "Canola meal"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر پنبه‌دانه",
+  "aliases": [
+   "animal_013",
+   "Cottonseed meal"
+  ],
+  "density": {
+   "min": 0.489,
+   "typical": 0.575,
+   "max": 0.661
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر تخم کتان",
+  "aliases": [
+   "animal_014",
+   "Flaxseed meal"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "تفاله چغندر خشک",
+  "aliases": [
+   "animal_015",
+   "Beet pulp powder"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "تفاله مرکبات خشک",
+  "aliases": [
+   "animal_016",
+   "Citrus pulp powder"
+  ],
+  "density": {
+   "min": 0.276,
+   "typical": 0.325,
+   "max": 0.374
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر ملاس خشک",
+  "aliases": [
+   "animal_017",
+   "Dried molasses powder"
+  ],
+  "density": {
+   "min": 0.383,
+   "typical": 0.45,
+   "max": 0.517
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر نخود و حبوبات",
+  "aliases": [
+   "animal_018",
+   "Legume meals"
+  ],
+  "density": {
+   "min": 0.489,
+   "typical": 0.575,
+   "max": 0.661
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد لوبیا سویا",
+  "aliases": [
+   "animal_019",
+   "Soybean meal"
+  ],
+  "density": {
+   "min": 0.489,
+   "typical": 0.575,
+   "max": 0.661
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر ذرت دامی",
+  "aliases": [
+   "animal_020",
+   "DDGS"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر مکمل معدنی",
+  "aliases": [
+   "animal_021",
+   "Mineral premix"
+  ],
+  "density": {
+   "min": 0.765,
+   "typical": 0.9,
+   "max": 1.035
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر نمک خوراکی دام",
+  "aliases": [
+   "animal_022"
+  ],
+  "density": {
+   "min": 1.02,
+   "typical": 1.2,
+   "max": 1.38
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کلسیم کربنات خوراکی",
+  "aliases": [
+   "animal_023"
+  ],
+  "density": {
+   "min": 0.595,
+   "typical": 0.7,
+   "max": 0.805
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر فسفات دی‌کلسیم",
+  "aliases": [
+   "animal_024",
+   "Dicalcium phosphate"
+  ],
+  "density": {
+   "min": 0.68,
+   "typical": 0.8,
+   "max": 0.92
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر نمک منیزیم و مشتقات",
+  "aliases": [
+   "animal_025"
+  ],
+  "density": {
+   "min": 0.616,
+   "typical": 0.725,
+   "max": 0.834
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر مخلوط ویتامینی",
+  "aliases": [
+   "animal_026",
+   "Vitamin premix"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر پروبیوتیک خشک",
+  "aliases": [
+   "animal_027",
+   "Dry probiotic powder"
+  ],
+  "density": {
+   "min": 0.255,
+   "typical": 0.3,
+   "max": 0.345
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر آنزیم خوراکی",
+  "aliases": [
+   "animal_028",
+   "Enzyme powder"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر عصاره مخمر",
+  "aliases": [
+   "animal_029",
+   "Yeast extract powder"
+  ],
+  "density": {
+   "min": 0.383,
+   "typical": 0.45,
+   "max": 0.517
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "مخمر تغذیه‌ای",
+  "aliases": [
+   "animal_030",
+   "Nutritional yeast"
+  ],
+  "density": {
+   "min": 0.361,
+   "typical": 0.425,
+   "max": 0.489
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "آرد ماهی استخوان‌گیری شده",
+  "aliases": [
+   "animal_031",
+   "Bone meal"
+  ],
+  "density": {
+   "min": 0.552,
+   "typical": 0.65,
+   "max": 0.747
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر صدف یا پوسته",
+  "aliases": [
+   "animal_032",
+   "Shell meal"
+  ],
+  "density": {
+   "min": 0.531,
+   "typical": 0.625,
+   "max": 0.719
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر چغندر قند برای فیبر",
+  "aliases": [
+   "animal_033"
+  ],
+  "density": {
+   "min": 0.361,
+   "typical": 0.425,
+   "max": 0.489
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر ساقه ذرت",
+  "aliases": [
+   "animal_034",
+   "Stover flour"
+  ],
+  "density": {
+   "min": 0.212,
+   "typical": 0.25,
+   "max": 0.287
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر پوسته روغن‌کشی",
+  "aliases": [
+   "animal_035",
+   "Hull meal"
+  ],
+  "density": {
+   "min": 0.297,
+   "typical": 0.35,
+   "max": 0.402
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر روغن‌کشی دانه‌ها",
+  "aliases": [
+   "animal_036",
+   "meal byproduct"
+  ],
+  "density": {
+   "min": 0.468,
+   "typical": 0.55,
+   "max": 0.632
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر مکمل آمینو اسیدها",
+  "aliases": [
+   "animal_037",
+   "Lysine/Methionine"
+  ],
+  "density": {
+   "min": 0.552,
+   "typical": 0.65,
+   "max": 0.747
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر عصاره گیاهی و طعم‌دهنده‌ها",
+  "aliases": [
+   "animal_038"
+  ],
+  "density": {
+   "min": 0.34,
+   "typical": 0.4,
+   "max": 0.46
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر زائدات کشاورزی آسیاب‌شده",
+  "aliases": [
+   "animal_039"
+  ],
+  "density": {
+   "min": 0.212,
+   "typical": 0.25,
+   "max": 0.287
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "کنسانتره پروتئینی",
+  "aliases": [
+   "animal_040",
+   "Protein concentrate"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر گوشت مرغ خشک",
+  "aliases": [
+   "animal_041",
+   "Poultry meal"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر خوراک ترکیبی",
+  "aliases": [
+   "animal_042",
+   "Compound feed powder"
+  ],
+  "density": {
+   "min": 0.574,
+   "typical": 0.675,
+   "max": 0.776
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر چربی جامد اصلاح‌شده",
+  "aliases": [
+   "animal_043",
+   "Solid fat powder"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر هسته و پوسته میوه",
+  "aliases": [
+   "animal_044",
+   "Fruit kernel meal"
+  ],
+  "density": {
+   "min": 0.297,
+   "typical": 0.35,
+   "max": 0.402
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر جلبک خشک",
+  "aliases": [
+   "animal_045",
+   "Algae meal"
+  ],
+  "density": {
+   "min": 0.17,
+   "typical": 0.2,
+   "max": 0.23
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پلی‌ساکاریدها و کلوئیدهای خوراکی",
+  "aliases": [
+   "animal_046"
+  ],
+  "density": {
+   "min": 0.425,
+   "typical": 0.5,
+   "max": 0.575
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر کوپروتیون و ریزمغذی‌ها",
+  "aliases": [
+   "animal_047"
+  ],
+  "density": {
+   "min": 0.595,
+   "typical": 0.7,
+   "max": 0.805
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر جگر خشک",
+  "aliases": [
+   "animal_048",
+   "Liver meal"
+  ],
+  "density": {
+   "min": 0.51,
+   "typical": 0.6,
+   "max": 0.69
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر مکمل کلسیم-فسفر اصلاح‌شده",
+  "aliases": [
+   "animal_049"
+  ],
+  "density": {
+   "min": 0.722,
+   "typical": 0.85,
+   "max": 0.977
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "پودر نمک دریایی برای خوراک دام",
+  "aliases": [
+   "animal_050"
+  ],
+  "density": {
+   "min": 0.999,
+   "typical": 1.175,
+   "max": 1.351
+  },
+  "category": "animal",
+  "validation_status": "partial",
+  "sources": [
+   "دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)"
+  ]
+ },
+ {
+  "name": "سیمان",
+  "aliases": [
+   "cement",
+   "Cement"
+  ],
+  "density": {
+   "min": 1.1,
+   "typical": 1.3,
+   "max": 1.5
+  },
+  "category": "chemical",
+  "validation_status": "verified",
+  "sources": [
+   "مقادیر استاندارد چگالی توده‌ای سیمان پرتلند (ثبت 2026-08)"
+  ]
+ },
+ {
+  "name": "نسکافه (قهوه فوری)",
+  "aliases": [
+   "nescafe",
+   "Instant Coffee"
+  ],
+  "density": {
+   "min": 0.28,
+   "typical": 0.33,
+   "max": 0.38
+  },
+  "category": "food",
+  "validation_status": "verified",
+  "sources": [
+   "مقادیر استاندارد چگالی توده‌ای قهوه فوری (ثبت 2026-08)"
+  ]
+ },
+ {
+  "name": "چسب کاشی پودری",
+  "aliases": [
+   "tile_glue",
+   "Tile Adhesive"
+  ],
+  "density": {
+   "min": 1.2,
+   "typical": 1.4,
+   "max": 1.6
+  },
+  "category": "chemical",
+  "validation_status": "verified",
+  "sources": [
+   "مقادیر استاندارد چگالی توده‌ای چسب کاشی (ثبت 2026-08)"
+  ]
+ },
+ {
+  "name": "کود اوره",
+  "aliases": [
+   "urea_fertilizer",
+   "Urea Fertilizer"
+  ],
+  "density": {
+   "min": 0.72,
+   "typical": 0.8,
+   "max": 0.88
+  },
+  "category": "chemical",
+  "validation_status": "verified",
+  "sources": [
+   "مقادیر استاندارد چگالی توده‌ای اوره گرانول (ثبت 2026-08)"
+  ]
+ },
+ {
+  "name": "کافی میت",
+  "aliases": [
+   "coffee_mate",
+   "Coffee Creamer"
+  ],
+  "density": {
+   "min": 0.45,
+   "typical": 0.52,
+   "max": 0.6
+  },
+  "category": "food",
+  "validation_status": "verified",
+  "sources": [
+   "مقادیر استاندارد چگالی توده‌ای کافی میت (ثبت 2026-08)"
+  ]
+ },
+ {
+  "name": "کود NPK",
+  "aliases": [
+   "npk_fertilizer",
+   "NPK Fertilizer"
+  ],
+  "density": {
+   "min": 0.9,
+   "typical": 1.0,
+   "max": 1.1
+  },
+  "category": "chemical",
+  "validation_status": "verified",
+  "sources": [
+   "مقادیر استاندارد چگالی توده‌ای کود NPK (ثبت 2026-08)"
+  ]
+ },
+ {
+  "name": "سولفات پتاسیم (کود)",
+  "aliases": [
+   "potassium_sulfate",
+   "Potassium Sulfate"
+  ],
+  "density": {
+   "min": 0.9,
+   "typical": 1.0,
+   "max": 1.1
+  },
+  "category": "chemical",
+  "validation_status": "verified",
+  "sources": [
+   "مقادیر استاندارد چگالی توده‌ای سولفات پتاسیم (ثبت 2026-08)"
+  ]
+ }
+]

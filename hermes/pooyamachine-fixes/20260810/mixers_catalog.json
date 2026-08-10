@@ -1,0 +1,162 @@
+[
+ {
+  "id": 18879,
+  "title": "میکسر پودر استیل 50 لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-50-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 50,
+  "motor_hp": 1.0,
+  "material": "استیل"
+ },
+ {
+  "id": 18884,
+  "title": "میکسر پودر استیل ۱۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b1%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 100,
+  "motor_hp": 2.0,
+  "material": "استیل"
+ },
+ {
+  "id": 18932,
+  "title": "میکسر پودر آهن ۲۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b2%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 200,
+  "motor_hp": 3.0,
+  "material": "آهن"
+ },
+ {
+  "id": 18887,
+  "title": "میکسر پودر استیل ۲۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b2%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 200,
+  "motor_hp": 3.0,
+  "material": "استیل"
+ },
+ {
+  "id": 18933,
+  "title": "میکسر پودر آهن ۴۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b4%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 400,
+  "motor_hp": 5.5,
+  "material": "آهن"
+ },
+ {
+  "id": 18905,
+  "title": "میکسر پودر استیل ۴۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b4%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 400,
+  "motor_hp": 5.5,
+  "material": "استیل"
+ },
+ {
+  "id": 18934,
+  "title": "میکسر پودر آهن ۶۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b6%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 600,
+  "motor_hp": 7.5,
+  "material": "آهن"
+ },
+ {
+  "id": 18909,
+  "title": "میکسر پودر استیل ۶۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b6%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 600,
+  "motor_hp": 7.5,
+  "material": "استیل"
+ },
+ {
+  "id": 18935,
+  "title": "میکسر پودر آهن ۸۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b8%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 800,
+  "motor_hp": 10.0,
+  "material": "آهن"
+ },
+ {
+  "id": 18913,
+  "title": "میکسر پودر استیل ۸۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b8%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 800,
+  "motor_hp": 10.0,
+  "material": "استیل"
+ },
+ {
+  "id": 18936,
+  "title": "میکسر پودر آهن ۱۰۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b1%db%b0%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 1000,
+  "motor_hp": 15.0,
+  "material": "آهن"
+ },
+ {
+  "id": 18920,
+  "title": "میکسر پودر استیل ۱۰۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b1%db%b0%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 1000,
+  "motor_hp": 10.0,
+  "material": "استیل"
+ },
+ {
+  "id": 18937,
+  "title": "میکسر پودر آهن ۱۲۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b1%db%b2%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 1200,
+  "motor_hp": null,
+  "material": "آهن"
+ },
+ {
+  "id": 18922,
+  "title": "میکسر پودر استیل ۱۲۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b1%db%b2%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 1200,
+  "motor_hp": 20.0,
+  "material": "استیل"
+ },
+ {
+  "id": 18938,
+  "title": "میکسر پودر آهن ۱۵۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b1%db%b5%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 1500,
+  "motor_hp": 20.0,
+  "material": "آهن"
+ },
+ {
+  "id": 18923,
+  "title": "میکسر پودر استیل ۱۵۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b1%db%b5%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 1500,
+  "motor_hp": 15.0,
+  "material": "استیل"
+ },
+ {
+  "id": 18939,
+  "title": "میکسر پودر آهن ۱۸۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b1%db%b8%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 1800,
+  "motor_hp": 25.0,
+  "material": "آهن"
+ },
+ {
+  "id": 18924,
+  "title": "میکسر پودر استیل ۱۸۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-%db%b1%db%b8%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 1800,
+  "motor_hp": 25.0,
+  "material": "استیل"
+ },
+ {
+  "id": 18940,
+  "title": "میکسر پودر آهن ۲۰۰۰ لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d9%be%d9%88%d8%af%d8%b1-%d8%a2%d9%87%d9%86-%db%b2%db%b0%db%b0%db%b0-%d9%84%db%8c%d8%aa%d8%b1%db%8c",
+  "capacity_l": 2000,
+  "motor_hp": 30.0,
+  "material": "آهن"
+ },
+ {
+  "id": 19290,
+  "title": "میکسر استیل 2000 لیتری",
+  "slug": "%d9%85%db%8c%da%a9%d8%b3%d8%b1-%d8%a7%d8%b3%d8%aa%db%8c%d9%84-2000-%d9%84%db%8c%d8%aa%d8%b1%db%8c-%d8%a7%d9%88%d8%ac-%d9%82%d8%af%d8%b1%d8%aa-%d9%88-%d8%b8%d8%b1%d9%81%db%8c%d8%aa-%d8%af%d8%b1-%d8%aa",
+  "capacity_l": 2000,
+  "motor_hp": null,
+  "material": "استیل"
+ }
+]

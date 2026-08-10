@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>گزارش گام ۱ و ۲ — اعتبارسنجی دیتابیس و کاتالوگ واقعی میکسر</title>
+<style>
+body{font-family:Tahoma,Arial,sans-serif;background:#f1f5f9;margin:0;padding:20px;color:#1e293b;line-height:1.7}
+.container{max-width:900px;margin:0 auto;background:#fff;border-radius:14px;padding:28px;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+h1{color:#0f4c81;border-bottom:3px solid #e2e8f0;padding-bottom:10px;font-size:22px}
+h2{color:#0f4c81;margin-top:28px;font-size:17px;border-right:4px solid #16a34a;padding-right:10px}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px}
+th{background:#0f4c81;color:#fff;padding:8px 10px;text-align:right}
+td{border:1px solid #e2e8f0;padding:7px 10px}
+tr:nth-child(even){background:#f8fafc}
+.badge{display:inline-block;padding:2px 10px;border-radius:12px;font-size:12px;font-weight:700;color:#fff}
+.b-verified{background:#16a34a}
+.b-partial{background:#d97706}
+.b-none{background:#64748b}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:13px}
+.ok{color:#16a34a;font-weight:700}
+.warn{color:#d97706;font-weight:700}
+a{color:#0f4c81}
+.btn{display:inline-block;background:#0f4c81;color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;margin:4px 4px 4px 0}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>📊 گزارش گام ۱ و ۲ — اعتبارسنجی دیتابیس + کاتالوگ واقعی میکسرها</h1>
+<p><strong>تاریخ:</strong> 2026-08-10 | <strong>سایت:</strong> pooyamachine.com</p>
+
+<h2>گام ۱ — اعتبارسنجی دیتابیس مواد (۱۸۷ ماده)</h2>
+<p>به هر ماده فیلدهای <code>validation_status</code> و <code>sources</code> اضافه شد:</p>
+<table>
+<tr><th>وضعیت</th><th>تعداد</th><th>منبع</th></tr>
+<tr><td><span class="badge b-verified">تأییدشده</span></td><td>۷</td><td>مقادیر استاندارد چگالی توده‌ای صنعتی (سیمان، نسکافه، چسب کاشی، کود اوره، کافی میت، NPK، سولفات پتاسیم)</td></tr>
+<tr><td><span class="badge b-partial">تأیید جزئی</span></td><td>۱۸۰</td><td>دیتابیس قبلی ماشین‌حساب سایت (مقادیر نمایش‌داده‌شده در نسخه قدیمی)</td></tr>
+</table>
+<div class="note">⚠️ <strong>اصل عدم حدس:</strong> هیچ عددی حدس زده نشد. ۱۸۰ ماده وضعیت «تأیید جزئی» گرفتند چون منبع بیرونی مستند ندارند — تا زمان تطبیق با داده معتبر، نباید در محاسبات مهندسی حیاتی استفاده شوند.</div>
+
+<h2>گام ۲ — کاتالوگ واقعی میکسرها (از محصولات سایت)</h2>
+<p>از REST، مشخصات ۲۰ میکسر واقعی استخراج شد. ظرفیت‌های ساختگی <code>[50,60,100,200,300,500,750,1000,1500,2000,3000,5000]</code> با ظرفیت‌های واقعی جایگزین شدند:</p>
+<table>
+<tr><th>ظرفیت (لیتر)</th><th>جنس</th><th>توان موتور (اسب بخار)</th><th>لینک</th></tr>
+<tr><td>۵۰</td><td>استیل</td><td>۱</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-50-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۵۰ ↗</a></td></tr>
+<tr><td>۱۰۰</td><td>استیل</td><td>۲</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B1%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۱۰۰ ↗</a></td></tr>
+<tr><td>۲۰۰</td><td>آهن</td><td>۳</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A2%D9%87%D9%86-%DB%B2%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر آهن ۲۰۰ ↗</a></td></tr>
+<tr><td>۲۰۰</td><td>استیل</td><td>۳</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B2%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۲۰۰ ↗</a></td></tr>
+<tr><td>۴۰۰</td><td>آهن</td><td>۵.۵</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A2%D9%87%D9%86-%DB%B4%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر آهن ۴۰۰ ↗</a></td></tr>
+<tr><td>۴۰۰</td><td>استیل</td><td>۵.۵</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B4%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۴۰۰ ↗</a></td></tr>
+<tr><td>۶۰۰</td><td>آهن</td><td>۷.۵</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A2%D9%87%D9%86-%DB%B6%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر آهن ۶۰۰ ↗</a></td></tr>
+<tr><td>۶۰۰</td><td>استیل</td><td>۷.۵</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B6%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۶۰۰ ↗</a></td></tr>
+<tr><td>۸۰۰</td><td>آهن</td><td>۱۰</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A2%D9%87%D9%86-%DB%B8%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر آهن ۸۰۰ ↗</a></td></tr>
+<tr><td>۸۰۰</td><td>استیل</td><td>۱۰</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B8%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۸۰۰ ↗</a></td></tr>
+<tr><td>۱۰۰۰</td><td>آهن</td><td>۱۵</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A2%D9%87%D9%86-%DB%B1%DB%B0%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر آهن ۱۰۰۰ ↗</a></td></tr>
+<tr><td>۱۰۰۰</td><td>استیل</td><td>۱۰</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B1%DB%B0%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۱۰۰۰ ↗</a></td></tr>
+<tr><td>۱۲۰۰</td><td>استیل</td><td>۲۰</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B1%DB%B2%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۱۲۰۰ ↗</a></td></tr>
+<tr><td>۱۵۰۰</td><td>آهن</td><td>۲۰</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A2%D9%87%D9%86-%DB%B1%DB%B5%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر آهن ۱۵۰۰ ↗</a></td></tr>
+<tr><td>۱۵۰۰</td><td>استیل</td><td>۱۵</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B1%DB%B5%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۱۵۰۰ ↗</a></td></tr>
+<tr><td>۱۸۰۰</td><td>آهن</td><td>۲۵</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A2%D9%87%D9%86-%DB%B1%DB%B8%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر آهن ۱۸۰۰ ↗</a></td></tr>
+<tr><td>۱۸۰۰</td><td>استیل</td><td>۲۵</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A7%D8%B3%D8%AA%DB%8C%D9%84-%DB%B1%DB%B8%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر استیل ۱۸۰۰ ↗</a></td></tr>
+<tr><td>۲۰۰۰</td><td>آهن</td><td>۳۰</td><td><a href="https://pooyamachine.com/%D9%85%DB%8C%DA%A9%D8%B3%D8%B1-%D9%BE%D9%88%D8%AF%D8%B1-%D8%A2%D9%87%D9%86-%DB%B2%DB%B0%DB%B0%DB%B0-%D9%84%DB%8C%D8%AA%D8%B1%DB%8C/" target="_blank">میکسر آهن ۲۰۰۰ ↗</a></td></tr>
+</table>
+<div class="note">⚠️ <strong>دو مدل بدون توان موتور:</strong> میکسر آهن ۱۲۰۰ و استیل ۲۰۰۰ — در صفحه محصول توان ذکر نشده («توان بسیار بالا»). <span class="warn">عدد حدس زده نشد.</span></div>
+
+<h2>تغییرات لایو روی ماشین‌حساب</h2>
+<table>
+<tr><th>قبل</th><th>بعد</th></tr>
+<tr><td>ظرفیت‌های ساختگی [50,60,100,200,300,500,750,1000,1500,2000,3000,5000]</td><td><span class="ok">۱۸ ظرفیت واقعی از کاتالوگ</span></td></tr>
+<tr><td>پیشنهاد فقط «X لیتر» بدون جزئیات</td><td>«X لیتر (موتور Y اسب‌بخار، جنس)»</td></tr>
+<tr><td>بدون لینک به محصول</td><td><span class="ok">لینک «مشاهده محصول ↗» به صفحه واقعی میکسر</span></td></tr>
+<tr><td>دیتابیس بدون منبع/وضعیت</td><td><span class="ok">validation_status + sources در هر ماده</span></td></tr>
+</table>
+
+<h2>فایل‌ها</h2>
+<p>
+<a class="btn" href="/data/powder-db-v2.json" download>دانلود powder-db-v2.json (دیتابیس جدید)</a>
+<a class="btn" href="/data/mixers_catalog.json" download>دانلود mixers_catalog.json</a>
+</p>
+<div class="note">📥 <strong>اقدام لازم:</strong> فایل <code>powder-db-v2.json</code> را در <code>wp-content/uploads/powder-db.json</code> (cPanel/FTP) جایگزین کن — نسخه قبلی را با این یکی عوض کن. JS فعلی آن را می‌فهمد (فیلدهای جدید نادیده گرفته می‌شوند).</div>
+
+<h2>گام بعدی پیشنهادی</h2>
+<p>گام ۳ — اعتبارسنجی ماشین‌حساب حجم مخزن با سناریوی واقعی (PM-500): حجم واقعی + وزن بچ واقعی از کاتالوگ.</p>
+</div>
+</body>
+</html>
