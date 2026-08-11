@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>گزارش نهایی سئو و فنی — pooyamachine.com — ۱۱ آگوست ۲۰۲۶</title>
+<style>
+body{font-family:Tahoma,Arial,sans-serif;background:#f1f5f9;margin:0;padding:20px;color:#1e293b;line-height:1.8}
+.container{max-width:960px;margin:0 auto;background:#fff;border-radius:14px;padding:28px;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+h1{color:#0f4c81;border-bottom:3px solid #e2e8f0;padding-bottom:10px;font-size:21px;margin-top:0;text-align:center}
+h2{color:#0f4c81;margin-top:28px;font-size:16px;border-right:4px solid #16a34a;padding-right:10px}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px}
+th{background:#0f4c81;color:#fff;padding:8px 10px;text-align:right}
+td{border:1px solid #e2e8f0;padding:7px 10px}
+tr:nth-child(even){background:#f8fafc}
+.ok{color:#16a34a;font-weight:700}.bad{color:#dc2626;font-weight:700}.warn{color:#d97706;font-weight:700}
+.badge{display:inline-block;padding:2px 10px;border-radius:12px;font-size:11.5px;font-weight:700;color:#fff}
+.b-ok{background:#16a34a}.b-warn{background:#d97706}.b-info{background:#64748b}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:12.5px}
+a{color:#0f4c81}
+.score{background:linear-gradient(135deg,#0f4c81,#12558c);color:#fff;border-radius:12px;padding:18px;text-align:center;margin:14px 0}
+.score .big{font-size:38px;font-weight:bold}
+.ltr{direction:ltr;display:inline-block;font-family:monospace;font-size:11.5px}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>📊 گزارش نهایی سئو و فنی<br>pooyamachine.com</h1>
+<p style="text-align:center;color:#64748b">۱۱ آگوست ۲۰۲۶ | راستی‌آزمایی لایو: ✅ همه موارد با curl + cache-bust تأیید شد</p>
+
+<h2>۱. راستی‌آزمایی گزارش سئو قبلی (SEO Ultimate)</h2>
+<table>
+<tr><th>ادعای گزارش</th><th>واقعیت لایو</th><th>نتیجه</th></tr>
+<tr><td>فایروال BitNinja: گوگل‌بات/AI-bot ها 403 می‌گیرند</td><td>همه 200: Googlebot، GPTBot، PerplexityBot، ClaudeBot، Jina</td><td><span class="bad">❌ ادعا غلط</span></td></tr>
+<tr><td>همه صفحات 403</td><td>همه صفحات 200</td><td><span class="bad">❌ ادعا غلط</span></td></tr>
+<tr><td>llms.txt = 403</td><td>llms.txt → 200 (موجود)</td><td><span class="bad">❌ ادعا غلط</span></td></tr>
+<tr><td>meta charset گمشده</td><td><span class="ltr">&lt;meta charset="UTF-8"&gt;</span> موجود</td><td><span class="bad">❌ ادعا غلط</span></td></tr>
+<tr><td>H1 محصول: «خرید ریبون بلندر [AUTO-FIX-TEST]»</td><td>متن تست واقعاً در H1 بود</td><td><span class="ok">✅ کشف درست → فیکس شد</span></td></tr>
+<tr><td>بدون اسکیمای Product (فقط FAQPage)</td><td>درست بود</td><td><span class="ok">✅ کشف درست → فیکس شد</span></td></tr>
+<tr><td>Organization فقط ۱ sameAs</td><td>در واقع Rank Math ۵ لینک دارد (گزارش ناقص بود)</td><td><span class="warn">⚠️ ناقص</span></td></tr>
+<tr><td>og:image از admin-ajax.php</td><td>درست بود</td><td><span class="ok">✅ کشف درست → فیکس شد</span></td></tr>
+</table>
+
+<h2>۲. فیکس‌های انجام‌شده (فاز ۱)</h2>
+<table>
+<tr><th>مورد</th><th>اقدام</th><th>وضعیت لایو</th></tr>
+<tr><td><b>H1 تست [AUTO-FIX-TEST]</b> در صفحه ریبون بلندر</td><td>عنوان صفحه تغییر کرد ← «ریبون بلندر صنعتی | پویا ماشین البرز»</td><td><span class="ok">✅ H1 تمیز، AUTO-FIX-TEST حذف</span></td></tr>
+<tr><td><b>اسکیمای Product</b> روی محصولات</td><td>اسنیپت 212 (kp-product-schema) + Rank Math @graph — خروجی Product + Brand + تصاویر</td><td><span class="ok">✅ ۲ بلوک ld+json: Product با برند «پویا ماشین البرز»</span></td></tr>
+<tr><td><b>Organization تکراری</b> (اسنیپت 144)</td><td>غیرفعال شد — فقط Rank Math با ۵ sameAs بماند</td><td><span class="ok">✅ ۱ Organization در صفحه اصلی</span></td></tr>
+<tr><td><b>og:image از admin-ajax</b></td><td>اسنیپت 213 (kp-og-image): لوگو با priority PHP_INT_MAX → آخرین مقدار</td><td><span class="ok">✅ لوگو آخرین og:image است (گوگل آخرین را می‌گیرد)</span></td></tr>
+</table>
+
+<h2>۳. بررسی کامل با claude-seo (فاز ۲)</h2>
+<div class="score">امتیاز GEO / آمادگی هوش مصنوعی: <span class="big">62/100</span></div>
+<table>
+<tr><th>دسته</th><th>یافته اصلی</th><th>شدت</th></tr>
+<tr><td>تکنیکال</td><td>robots.txt آلوده به HTML footer (تزریق Advanced Scripts Manager)</td><td><span class="bad">بحرانی</span></td></tr>
+<tr><td>تکنیکال</td><td>CSP غایب، HSTS بدون includeSubDomains/preload</td><td><span class="warn">متوسط</span></td></tr>
+<tr><td>تکنیکال</td><td>sitemap_index معتبر (۶ زیرنقشه همه 200)، canonical صحیح، 301 درست</td><td><span class="ok">خوب</span></td></tr>
+<tr><td>GEO</td><td>llms.txt بدون RSL و بدون لینک</td><td><span class="warn">متوسط</span></td></tr>
+<tr><td>GEO</td><td>OAI-SearchBot و ClaudeBot در robots.txt غایب بودند</td><td><span class="warn">متوسط</span></td></tr>
+<tr><td>GEO</td><td>citability ضعیف (هیچ H2 سوالی، بدون بای‌لاین نویسنده/تاریخ)</td><td><span class="warn">متوسط</span></td></tr>
+<tr><td>تصاویر</td><td>۲ تصویر اسلایدر dummy بدون alt، آیکون‌های کوچک بدون alt</td><td><span class="warn">متوسط</span></td></tr>
+<tr><td>تصاویر</td><td>۱۹/۲۸ تصویر lazy-load دارند، لوگو alt درست دارد</td><td><span class="ok">خوب</span></td></tr>
+</table>
+
+<h2>۴. رفع مشکلات (فاز ۳)</h2>
+<table>
+<tr><th>مشکل</th><th>راه‌حل</th><th>وضعیت</th></tr>
+<tr><td><b>robots.txt آلوده</b> به HTML footer</td><td>فایل فیزیکی robots.txt در public_html (توسط کاربر در cPanel) — تمیز، بدون تزریق</td><td><span class="ok">✅ تأیید لایو: بدون HTML</span></td></tr>
+<tr><td><b>OAI-SearchBot/ClaudeBot غایب</b></td><td>به robots.txt اضافه شد (Allow: /)</td><td><span class="ok">✅ تأیید لایو</span></td></tr>
+<tr><td><b>CSP غایب</b></td><td>اسنیپت 215 (kp-csp-header) — سازگار با Botpress/Elementor/GA</td><td><span class="ok">✅ هدر فعال در لایو</span></td></tr>
+<tr><td><b>llms.txt بدون RSL</b></td><td>خط <span class="ltr">&lt;!-- RSL: https://llmstxt.org/rsl_1_0.html --&gt;</span> اضافه شد (cPanel)</td><td><span class="ok">✅ تأیید لایو</span></td></tr>
+<tr><td><b>HSTS ضعیف</b></td><td>نیاز تنظیم سرور (Caddy/BitNinja) — از PHP قابل تغییر نیست</td><td><span class="warn">⏸️ رها — پیشنهاد آینده</span></td></tr>
+<tr><td><b>alt اسلایدر dummy</b></td><td>نیاز ویرایش RevSlider در پیشخوان</td><td><span class="warn">⏳ در انتظار کاربر</span></td></tr>
+</table>
+
+<h2>۵. اسنیپت‌های فعال (Code Snippets)</h2>
+<table>
+<tr><th>ID</th><th>نام</th><th>کارکرد</th></tr>
+<tr><td>203</td><td>kp-calculator shortcode</td><td>شورتکد ماشین‌حساب (CSS+HTML)</td></tr>
+<tr><td>204</td><td>kp-calc JS</td><td>JS ماشین‌حساب + MIXER_MODELS واقعی + ضریب ۷۵٪</td></tr>
+<tr><td>206</td><td>kp-density-live</td><td>پنل داده زنده ۱۵ صفحه density (wp_body_open)</td></tr>
+<tr><td>212</td><td>kp-product-schema</td><td>اسکیمای Product + برند</td></tr>
+<tr><td>213</td><td>kp-og-image</td><td>og:image لوگو (آخرین مقدار)</td></tr>
+<tr><td>215</td><td>kp-csp-header</td><td>Content-Security-Policy</td></tr>
+<tr><td>144</td><td>kp-org-schema</td><td><span class="bad">غیرفعال (تکراری)</span></td></tr>
+</table>
+
+<h2>۶. مشکلات اساسی باقی‌مانده (پیشنهاد گام بعدی)</h2>
+<table>
+<tr><th>مشکل</th><th>اثر</th><th>پیچیدگی</th></tr>
+<tr><td>author-sitemap در sitemap_index (۳ نویسنده)</td><td>صفحات کم‌ارزش در ایندکس</td><td>کم — تنظیم Rank Math</td></tr>
+<tr><td>citability ضعیف صفحه اصلی (~۲۴۱ کلمه، بدون H2 سوالی)</td><td>کم‌استنادی در پاسخ AI</td><td>متوسط — بازنویسی محتوا</td></tr>
+<tr><td>صفحات ماشین‌حساب بدون متن prose</td><td>غیرقابل استناد برای AI</td><td>متوسط — افزودن متن راهنما</td></tr>
+<tr><td>فقدان landmarkهای main/article</td><td>ساختار ضعیف برای AI crawler ها</td><td>متوسط — اصلاح قالب</td></tr>
+</table>
+
+<div class="note">
+<b>یادداشت:</b> ۴ فایل HTML راهنمای فنی (لوله استیل، کاتالوگ UCFC، مقاله استانداردها، پروفیل فولادی) بررسی شدند — فایل لوله و مقاله و پروفیل قابل انتشارند (۱ اصلاح جزئی: برچسب XXS)، اما <b>کاتالوگ UCFC نیاز بازنویسی کامل دارد</b> (متن خراب سیرلیک + داده غیراستاندارد: سری UCFC300 وجود ندارد، UCFC219/220 خارج از استاندارد، UCFC314 تکراری). طبق دستور، رها شد تا کاربر بگوید.
+</div>
+
+<p style="text-align:center;color:#94a3b8;font-size:11px;margin-top:24px">گزارش توسط Hermes Agent — همه موارد با تست لایو (curl + cache-bust) راستی‌آزمایی شد</p>
+</div>
+</body>
+</html>
