@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>گزارش بازرسی جوش — ریبون بلندر ۳-A100 | پویا ماشین</title>
+  <style>
+    :root{--accent:#0f62fe;--text:#161616;--muted:#525252;--line:#c6c6c6;--bg:#f4f4f4;--surface:#fff;--ok:#24a148;--warn:#b26a00;}
+    *{box-sizing:border-box}
+    body{font-family:'Vazirmatn',Tahoma,sans-serif;background:var(--bg);color:var(--text);margin:0;line-height:1.8;font-size:15px}
+    .page{max-width:880px;margin:24px auto;background:var(--surface);padding:40px 48px;border:1px solid var(--line)}
+    h1{font-size:22px;margin:0 0 4px}
+    .doc-id{color:var(--muted);font-size:13px;margin-bottom:24px}
+    h2{font-size:16px;margin:28px 0 12px;padding-right:10px;border-right:4px solid var(--accent)}
+    table{width:100%;border-collapse:collapse;margin:10px 0 20px;font-size:14px}
+    th,td{border:1px solid var(--line);padding:9px 12px;text-align:right;vertical-align:top}
+    th{background:var(--bg);font-weight:600}
+    .sig{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+    .sig td{height:44px;text-align:center;font-weight:600;color:var(--accent)}
+    .note{background:#edf5ff;border-right:4px solid var(--accent);padding:12px 16px;font-size:13.5px;color:#0043ce;margin:12px 0}
+    .warn{background:#fff8e6;border-right:4px solid var(--warn);padding:12px 16px;font-size:13.5px;color:#7a4b00;margin:12px 0}
+    footer{margin-top:32px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:12px}
+    @media(max-width:600px){.page{padding:24px 16px;margin:0}.sig{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<div class="page">
+  <h1>گزارش بازرسی جوش (Weld Inspection Report)</h1>
+  <div class="doc-id">سند: PM-WIR-RBA100-001 | تجهیز: دستگاه ریبون بلندر صنعتی مدل ۳-A100</div>
+
+  <h2>۱. مشخصات دستگاه</h2>
+  <table>
+    <tr><th style="width:30%">شماره سریال</th><td id="serial">RBA100-EP-[شماره-سریال]</td></tr>
+    <tr><th>تاریخ بازرسی</th><td id="date">[تاریخ-بازرسی]</td></tr>
+    <tr><th>جنس مخزن</th><td>استیل ضدزنگ AISI 304 / 316</td></tr>
+    <tr><th>ضخامت ورق</th><td id="thickness">[۲–۶ mm]</td></tr>
+    <tr><th>استاندارد مرجع</th><td>ISO 5817 (کیفیت اتصالات جوشکاری‌شده — فولاد) + ASME B31.3 (موارد کاربرد)</td></tr>
+    <tr><th>روش جوشکاری</th><td>TIG (GTAW) — بدون فلز پرکننده در پاس ریشه، با فلز پرکننده در پاس‌های بعدی</td></tr>
+  </table>
+
+  <h2>۲. نوع و موقعیت جوش‌های بازرسی‌شده</h2>
+  <table>
+    <thead><tr><th>موقعیت</th><th>نوع اتصال</th><th>نیاز</th></tr></thead>
+    <tbody>
+      <tr><td>بدنه استوانه‌ای به کف مخزن</td><td>گوشه (Fillet) / سر به سر (Butt)</td><td>نفوذ کامل، بدون ترک و تخلخل</td></tr>
+      <tr><td>ناودانی داخلی (Ribbon) به شفت</td><td>گوشه (Fillet)</td><td>نفوذ کامل، استحکام بالا</td></tr>
+      <tr><td>درز طولی بدنه</td><td>سر به سر (Butt) — پاس ریشه + پاس رویه</td><td>نفوذ کامل، سطح صیقلی</td></tr>
+      <tr><td>اتصالات جداره دوجداره</td><td>گوشه (Fillet) — جوش‌کاری محافظ</td><td>جلوگیری از نشتی سیال گرمایشی</td></tr>
+    </tbody>
+  </table>
+
+  <h2>۳. معیارهای پذیرش</h2>
+  <table>
+    <thead><tr><th>بند</th><th>معیار</th><th>مقدار پذیرش</th><th>نتیجه</th></tr></thead>
+    <tbody>
+      <tr><td>۳.۱</td><td>ترک‌های سطحی (Visual)</td><td>هیچ — صفر</td><td id="r31">[قبول/رد]</td></tr>
+      <tr><td>۳.۲</td><td>تخلخل سطحی (Visual/PT)</td><td>حداکثر ۱ تخلخل ۱mm در ۱۰۰mm طول جوش</td><td id="r32">[قبول/رد]</td></tr>
+      <tr><td>۳.۳</td><td>نفوذ کامل ریشه (Visual/RT)</td><td>اتصال کامل — بدون عدم نفوذ</td><td id="r33">[قبول/رد]</td></tr>
+      <tr><td>۳.۴</td><td>بریدگی کنار جوش (Undercut)</td><td>حداکثر ۰٫۵mm عمق</td><td id="r34">[قبول/رد]</td></tr>
+      <tr><td>۳.۵</td><td>اکسیداسیون/رنگ‌پریدگی پاس ریشه</td><td>حداقل درجه آبی روشن — بدون پوسته‌شدگی</td><td id="r35">[قبول/رد]</td></tr>
+      <tr><td>۳.۶</td><td>زبری سطح (Ra) ناحیه جوش</td><td>≤ ۰٫۸ µm برای مناطق تماس با محصول</td><td id="r36">[قبول/رد]</td></tr>
+    </tbody>
+  </table>
+  <p class="note">معیارهای ۳.۱ تا ۳.۵ بر مبنای ISO 5817 سطح کیفیت B (بالاترین سطح) است؛ معیار ۳.۶ برای پولیش بهداشتی مخازن فرآوری مواد غذایی/دارویی تعریف شده است.</p>
+
+  <h2>۴. روش‌های بازرسی انجام‌شده</h2>
+  <table>
+    <thead><tr><th>روش</th><th>کد استاندارد</th><th>محدوده</th><th>نتیجه</th></tr></thead>
+    <tbody>
+      <tr><td>بازرسی چشمی</td><td>VT — ISO 17637</td><td>۱۰۰٪ تمام جوش‌ها</td><td id="rt1">[قبول/رد]</td></tr>
+      <tr><td>تست نفوذ مایع</td><td>PT — ISO 3452-1</td><td>جوش‌های گوشه داخلی و اتصال کف</td><td id="rt2">[قبول/رد]</td></tr>
+      <tr><td>تست رادیوگرافی</td><td>RT — ISO 17636 (اختیاری، در سفارش)</td><td>درز طولی و سر به سر</td><td id="rt3">[در صورت درخواست]</td></tr>
+    </tbody>
+  </table>
+
+  <h2>۵. نتیجه‌گیری</h2>
+  <p id="conclusion">جوش‌های دستگاه مطابق معیارهای پذیرش ISO 5817 سطح B قابل قبول ارزیابی شد. هیچ‌گونه ترک، تخلخل عمده یا عدم نفوذ مشاهده نشد. سطح ناحیه جوش پس از سنگ‌زنی و پولیش، برای تماس با مواد غذایی/دارویی مناسب است.</p>
+
+  <div class="sig">
+    <table>
+      <tr><th>بازرس جوش (QC)</th><th>مدیر کنترل کیفیت</th></tr>
+      <tr><td>نام و امضا: <span class="sig-line"></span></td><td>نام و امضا: <span class="sig-line"></span></td></tr>
+      <tr><td>تاریخ: <span class="sig-line"></span></td><td>تاریخ: <span class="sig-line"></span></td></tr>
+    </table>
+  </div>
+
+  <div class="warn">⚠️ این سند یک نمونه قالب است. هنگام تحویل واقعی، تاریخ، شماره سریال، مقادیر اندازه‌گیری‌شده و امضای مسئول QC باید ثبت شود. نتایج جدول‌ها («قبول/رد») باید بر اساس بازرسی واقعی دستگاه تکمیل گردند. PDF نهایی باید با نرم‌افزار ویرایش و به‌صورت غیرقابل تغییر (رمز/امضا) صادر شود.</div>
+
+  <footer>پویا ماشین | سند: PM-WIR-RBA100-001 | این قالب بر اساس ISO 5817 و ISO 17637 تنظیم شده است.</footer>
+</div>
+</body>
+</html>
