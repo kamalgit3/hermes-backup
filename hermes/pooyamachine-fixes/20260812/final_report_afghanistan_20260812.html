@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fa-AF" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>گزارش نهایی توسعه بازار افغانستان – پویا ماشین</title>
+<style>
+body{font-family:Vazirmatn,Tahoma,sans-serif;background:#f3f6f9;margin:0;padding:40px;color:#243342;line-height:1.8}
+.container{max-width:960px;margin:auto;background:#fff;padding:40px;border-radius:16px;box-shadow:0 10px 30px rgba(11,33,57,.08)}
+h1{color:#0b2139;border-bottom:2px solid #d7a33d;padding-bottom:10px;margin-bottom:30px}
+h2{color:#0b5cab;margin-top:40px}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}
+th,td{border:1px solid #e2e8ef;padding:12px;text-align:right}
+th{background:#0b2139;color:#fff}
+tr:nth-child(even) td{background:#f8fafc}
+a{color:#0b5cab;text-decoration:none}a:hover{text-decoration:underline}
+.badge{display:inline-block;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600}
+.badge-ok{background:#effaf5;color:#138a62}
+.badge-warn{background:#fff8e9;color:#b8860b}
+.badge-info{background:#eef4ff;color:#0b5cab}
+ul{margin:10px 0 10px 20px}
+footer{margin-top:40px;padding-top:20px;border-top:1px solid #e2e8ef;color:#687785;font-size:13px}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>گزارش نهایی توسعه بازار افغانستان – پویا ماشین البرز</h1>
+<p><strong>تاریخ:</strong> ۱۲ مرداد ۱۴۰۵ (۳ اوت ۲۰۲۶) &nbsp;|&nbsp; <strong>نسخه:</strong> ۱.۰</p>
+
+<h2>۱. خلاصه اجرایی</h2>
+<p>به منظور ورود به بازار افغانستان، چهار صفحه محتوایی به زبان دری با تمرکز بر کلمات‌کلیدی فنی (میکسر پودر، اسکرو کانوایر، اسکرو فیدر، راهنمای نصب) ساخته شدند. همهٔ صفحات با <code>hreflang</code>، <code>FAQ Schema</code>، <code>BreadcrumbList</code> و بهینه‌سازی موبایل راه‌اندازی شده‌اند. یک فرم استعلام قیمت/مشاوره (Shortcode <code>[pm_af_inquiry_form]</code>) در صفحه‌ی لندینگ و در صفحه راهنمای نصب تعبیه شده است.</p>
+
+<h2>۲. صفحات منتشرشده</h2>
+<table>
+<tr><th>صفحه</th><th>URL</th><th>شناسه WP</th><th>وضعیت</th></tr>
+<tr><td>لندینگ افغانستان</td><td><a href="https://pooyamachine.com/af/" target="_blank">/af/</a></td><td>21527</td><td><span class="badge badge-ok">منتشر شده</span></td></tr>
+<tr><td>میکسر پودر (دری)</td><td><a href="https://pooyamachine.com/af/mixer-powder/" target="_blank">/af/mixer-powder/</a></td><td>21528</td><td><span class="badge badge-ok">منتشر شده</span></td></tr>
+<tr><td>اسکرو کانوایر (دری)</td><td><a href="https://pooyamachine.com/af/screw-conveyor/" target="_blank">/af/screw-conveyor/</a></td><td>21529</td><td><span class="badge badge-ok">منتشر شده</span></td></tr>
+<tr><td>اسکرو فیدر (دری)</td><td><a href="https://pooyamachine.com/af/screw-feeder/" target="_blank">/af/screw-feeder/</a></td><td>21534</td><td><span class="badge badge-ok">منتشر شده</span></td></tr>
+<tr><td>راهنمای نصب در افغانستان</td><td><a href="https://pooyamachine.com/af/installation-guide/" target="_blank">/af/installation-guide/</a></td><td>21542</td><td><span class="badge badge-ok">منتشر شده</span></td></tr>
+</table>
+
+<h2>۳. بهینه‌سازی‌های فنی</h2>
+<table>
+<tr><th>مورد</th><th>وضعیت</th><th>جزئیات</th></tr>
+<tr><td>hreflang (fa-AF / fa-IR / x-default)</td><td><span class="badge badge-ok">فعال</span></td><td>اضافه شده از طریق Rank Math meta در هر صفحه</td></tr>
+<tr><td>FAQ Schema (JSON-LD)</td><td><span class="badge badge-ok">فعال</span></td><td>۲۰+ سؤال/پاسخ در چهار مقاله</td></tr>
+<tr><td>BreadcrumbList Schema</td><td><span class="badge badge-ok">فعال</span></td><td>برای تمام صفحات /af/</td></tr>
+<tr><td>فرم استعلام (Shortcode)</td><td><span class="badge badge-ok">نصب شده</span></td><td>اسنیپت ۲۲۷ – ارسال ایمیل به sales@pooyamachine.com</td></tr>
+<tr><td>بهینه‌سازی موبایل (CSS @media)</td><td><span class="badge badge-ok">اعمال شده</span></td><td>فرم در عرض < 760px به حالت block تبدیل می‌شود</td></tr>
+<tr><td>پاک‌سازی حروف نامعتبر (سیریلیک/کنترل)</td><td><span class="badge badge-ok">انجام شده</span></td><td>تمام فایل‌های <code>/data/articles/*.html</code></td></tr>
+<tr><td>بکاپ گیت</td><td><span class="badge badge-ok">commit <code>affc422</code></span></td><td>شامل همه مقالات، گزارش‌ها و تغییرات</td></tr>
+</table>
+
+<h2>۴. کدهای اضافه‌شده (نمونه)</h2>
+<h3>Shortcode فرم استعلام</h3>
+<pre><code>[pm_af_inquiry_form]</code></pre>
+<p>این شورت‌کد در محتوای صفحات <code>/af/</code> و <code>/af/installation-guide/</code> قرار دارد.</p>
+
+<h3>CSS اصلاح موبایل</h3>
+<pre><code>@media (max-width: 760px) {
+  .pm-af-form { display: block !important; }
+}
+</code></pre>
+
+<h2>۵. فایل‌های منبع (لوکال)</h2>
+<ul>
+<li><code>/data/articles/article_mixer-powder_dari.html</code></li>
+<li><code>/data/articles/article_screw-conveyor_dari.html</code></li>
+<li><code>/data/articles/article_screw-feeder_dari.html</code></li>
+<li><code>/data/articles/article_afghanistan-installation-guide_dari.html</code></li>
+<li><code>/data/final_report_afghanistan_20260812.html</code> (این گزارش)</li>
+</ul>
+
+<h2>۶. مراحل بعدی پیشنهادی</h2>
+<ol>
+<li>بررسی عملکرد فرم استعلام در محیط واقعی (تست ارسال).</li>
+<li>رصد سرچ‌کنسول برای ایندکس‌گذاری صفحات <code>/af/</code>.</li>
+<li>افزودن محتوای فصلی (مثلا «تجهیزات صنایع لبنیات افغانستان»).</li>
+<li>تحلیل سرعت با PageSpeed و در صورت لزوم تنظیم CDN (Cloudflare).</li>
+</ol>
+
+<footer>
+منبع: پویا ماشین البرز – توسعه‌دهنده: Hermes Agent&nbsp;|&nbsp;بکاپ گیت: <code>affc422</code>
+</footer>
+</div>
+</body>
+</html>
